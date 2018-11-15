@@ -24,7 +24,7 @@ class SideMenuViewController: UITableViewController, Menu {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        preferredContentSize.width = 100
+        preferredContentSize.width = 150
     }
     
     //MARK: - UITableViewDelegate
