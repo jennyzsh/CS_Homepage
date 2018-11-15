@@ -48,7 +48,13 @@ extension ViewController: SideMenuViewControllerDelegate {
         transitionPoint = point
         selectedIndex = index
         
-        self.dismiss(animated: true, completion: nil)
+        let content = storyboard?.instantiateViewController(withIdentifier: "TestViewController") as! TestViewController
+        
+        navigator.setViewControllers([content], animated: true)
+        
+        DispatchQueue.main.async {
+            self.dismiss(animated: true, completion: nil)
+        }
     }
 }
 
