@@ -1,0 +1,26 @@
+{
+    "instructors":
+    [
+        {
+            "name": "Dr. Chan H.T.H.",
+            "title": "PhD (Carnegie Mellon)",
+            "field_of_research": "Algorithms, Combinatorial Optimization, Graphs, Information Networks, Security & Privacy",
+            "email": "hubert@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/Chan%20H.T.H.%20.jpg"
+        },
+        {
+            "name": "Dr. Chan K.P.",
+            "title": "PhD (HK)",
+            "field_of_research": "Pattern Recognition, Chinese Computing, Facial Expression Recognition, Machine Learning",
+            "email": "kpchan@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/Chan%20K.P..jpg"
+        },
+        {
+            "name": "Dr. Cheng R.C.K.",
+            "title": "PhD (Purdue)",
+            "field_of_research": "Database and Uncertainty Management",
+            "email": "ckcheng@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/Cheng%20R.C.K..jpg"
+        }
+    ]
+}

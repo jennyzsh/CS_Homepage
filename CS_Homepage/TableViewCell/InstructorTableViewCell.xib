@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="154" id="KGk-i7-Jjw" customClass="InstructorTableViewCell" customModule="CS_Homepage" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="535" height="154"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="535" height="153.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ChanHTH" translatesAutoresizingMaskIntoConstraints="NO" id="IIW-0m-f4O">
+                        <rect key="frame" x="0.0" y="0.0" width="130" height="160.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="IIW-0m-f4O" secondAttribute="height" multiplier="13:16" id="09b-lE-FfJ"/>
+                            <constraint firstAttribute="height" constant="160" id="RWK-yl-z7G"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Algorithms, Combinatorial Optimization, Graphs, Information Networks, Security &amp; Privacy" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ur3-DJ-mjH">
+                        <rect key="frame" x="135" y="60.5" width="400" height="31.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Field of Research" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flz-Tx-fCC">
+                        <rect key="frame" x="135" y="42.5" width="400" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="PhD (Carnegie Mellon)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIS-1u-iHK">
+                        <rect key="frame" x="135" y="21.5" width="400" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="hubert@cs.hku.hk " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knl-6U-Bqi">
+                        <rect key="frame" x="135" y="115" width="400" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. Chan H.T.H." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3u-lf-qZ6">
+                        <rect key="frame" x="135" y="0.0" width="400" height="21.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzA-ac-s5x">
+                        <rect key="frame" x="135" y="97" width="400" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="flz-Tx-fCC" firstAttribute="top" secondItem="aIS-1u-iHK" secondAttribute="bottom" constant="5" id="2An-GE-UAs"/>
+                    <constraint firstItem="Ur3-DJ-mjH" firstAttribute="top" secondItem="flz-Tx-fCC" secondAttribute="bottom" id="9Z9-4g-WSs"/>
+                    <constraint firstItem="aIS-1u-iHK" firstAttribute="top" secondItem="I3u-lf-qZ6" secondAttribute="bottom" id="BeE-vH-XH0"/>
+                    <constraint firstItem="kzA-ac-s5x" firstAttribute="leading" secondItem="Ur3-DJ-mjH" secondAttribute="leading" id="DyI-9H-sJj"/>
+                    <constraint firstItem="kzA-ac-s5x" firstAttribute="top" secondItem="Ur3-DJ-mjH" secondAttribute="bottom" constant="5" id="FBt-zF-UXh"/>
+                    <constraint firstItem="flz-Tx-fCC" firstAttribute="leading" secondItem="aIS-1u-iHK" secondAttribute="leading" id="FpY-7y-P3C"/>
+                    <constraint firstAttribute="trailing" secondItem="I3u-lf-qZ6" secondAttribute="trailing" id="HJ9-3Z-fuO"/>
+                    <constraint firstItem="knl-6U-Bqi" firstAttribute="leading" secondItem="kzA-ac-s5x" secondAttribute="leading" id="HbT-gi-ehB"/>
+                    <constraint firstAttribute="bottom" secondItem="IIW-0m-f4O" secondAttribute="bottom" id="O8j-bi-gSv"/>
+                    <constraint firstItem="aIS-1u-iHK" firstAttribute="trailing" secondItem="I3u-lf-qZ6" secondAttribute="trailing" id="Pnb-p0-8CB"/>
+                    <constraint firstItem="kzA-ac-s5x" firstAttribute="trailing" secondItem="Ur3-DJ-mjH" secondAttribute="trailing" id="VGH-Kc-nim"/>
+                    <constraint firstItem="aIS-1u-iHK" firstAttribute="top" secondItem="I3u-lf-qZ6" secondAttribute="bottom" id="b8n-8l-kpD"/>
+                    <constraint firstItem="Ur3-DJ-mjH" firstAttribute="trailing" secondItem="flz-Tx-fCC" secondAttribute="trailing" id="bJG-kQ-1tl"/>
+                    <constraint firstItem="IIW-0m-f4O" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="cmH-6j-FeT"/>
+                    <constraint firstItem="Ur3-DJ-mjH" firstAttribute="leading" secondItem="flz-Tx-fCC" secondAttribute="leading" id="hV0-Ta-vxW"/>
+                    <constraint firstItem="I3u-lf-qZ6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="haG-Fq-F1m"/>
+                    <constraint firstItem="I3u-lf-qZ6" firstAttribute="leading" secondItem="IIW-0m-f4O" secondAttribute="trailing" constant="5" id="lsO-lp-xsk"/>
+                    <constraint firstItem="IIW-0m-f4O" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="nOa-ze-DqL"/>
+                    <constraint firstItem="knl-6U-Bqi" firstAttribute="trailing" secondItem="kzA-ac-s5x" secondAttribute="trailing" id="o0j-eR-4zk"/>
+                    <constraint firstItem="aIS-1u-iHK" firstAttribute="leading" secondItem="I3u-lf-qZ6" secondAttribute="leading" id="p5J-vC-SqK"/>
+                    <constraint firstItem="flz-Tx-fCC" firstAttribute="trailing" secondItem="aIS-1u-iHK" secondAttribute="trailing" id="pQS-fk-DvN"/>
+                    <constraint firstItem="knl-6U-Bqi" firstAttribute="top" secondItem="kzA-ac-s5x" secondAttribute="bottom" id="ppS-HK-QBR"/>
+                    <constraint firstItem="IIW-0m-f4O" firstAttribute="width" secondItem="IIW-0m-f4O" secondAttribute="height" multiplier="13:16" id="vbX-0V-6n2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="ivPhoto" destination="IIW-0m-f4O" id="4qu-wu-76W"/>
+                <outlet property="lblEmail" destination="knl-6U-Bqi" id="ASk-jw-53g"/>
+                <outlet property="lblFieldOfResearch" destination="Ur3-DJ-mjH" id="JDZ-kR-lIo"/>
+                <outlet property="lblName" destination="I3u-lf-qZ6" id="Dtd-e9-vB3"/>
+                <outlet property="lblTitle" destination="aIS-1u-iHK" id="226-sE-3NB"/>
+            </connections>
+            <point key="canvasLocation" x="224.80000000000001" y="87.256371814092958"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ChanHTH" width="130" height="157"/>
+    </resources>
+</document>

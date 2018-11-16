@@ -12,7 +12,6 @@ import SideMenu
 class ViewController: UIViewController {
     
     fileprivate var transitionPoint: CGPoint!
-    fileprivate var selectedIndex = 0
     fileprivate var navigator: UINavigationController!
 
     lazy fileprivate var menuAnimator: MenuTransitionAnimator! = MenuTransitionAnimator(mode: .presentation, shouldPassEventsOutsideMenu: false) {
@@ -37,6 +36,10 @@ class ViewController: UIViewController {
         }
     }
 
+    @IBAction func clickToHomePage(_ sender: UIButton) {
+        let content = storyboard?.instantiateViewController(withIdentifier: "HomePageViewController") as! HomePageViewController
+        navigator.setViewControllers([content], animated: true)
+    }
 }
 
 extension ViewController: SideMenuViewControllerDelegate {
@@ -46,9 +49,25 @@ extension ViewController: SideMenuViewControllerDelegate {
     
     func menu(_ menu: SideMenuViewController, didSelectItemAt index: Int, at point: CGPoint) {
         transitionPoint = point
-        selectedIndex = index
         
-        let content = storyboard?.instantiateViewController(withIdentifier: "TestViewController") as! TestViewController
+        let content = storyboard?.instantiateViewController(withIdentifier: "SubmenuViewController") as! SubmenuViewController
+        
+        switch index {
+        case 0:
+            content.menu_type = "about"
+        case 1:
+            content.menu_type = "admission"
+        case 2:
+            content.menu_type = "curriculum"
+        case 3:
+            content.menu_type = "graduate"
+        case 4:
+            content.menu_type = "news"
+        case 5:
+            content.menu_type = "student_resource"
+        default:
+            break
+        }
         
         navigator.setViewControllers([content], animated: true)
         

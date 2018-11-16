@@ -1,0 +1,44 @@
+{
+    "about": {
+        "title": "About",
+        "submenu": [
+            {
+                "title": "Faculty",
+                "view_controller": "FacultyViewController"
+            },
+            {
+                "title": "Message from Programme Director",
+                "view_controller": "DirectorMsgViewController"
+            },
+            {
+                "title": "About HKU",
+                "view_controller": "AboutHkuViewController"
+            }
+        ]
+    },
+    "admission": {
+        "title": "Admission",
+        "submenu": [
+        ]
+    },
+    "curriculum": {
+        "title": "Curriculum",
+        "submenu": [
+        ]
+    },
+    "graduate": {
+        "title": "Graduate & Alumni",
+        "submenu": [
+        ]
+    },
+    "news":{
+        "title": "News & Events",
+        "submenu": [
+        ]
+    },
+    "student_resource": {
+        "title": "Student Resources",
+        "submenu": [
+        ]
+    }
+}
