@@ -345,7 +345,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ooM-SU-iLl">
                                                 <rect key="frame" x="0.0" y="162" width="375" height="100"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxe-4g-DN4">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxe-4g-DN4" customClass="KILabel">
                                                         <rect key="frame" x="20" y="10" width="335" height="0.0"/>
                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -410,7 +410,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="jSj-Ub-JEb"/>
                     <connections>
-                        <outlet property="lblContactUs" destination="hxe-4g-DN4" id="VGN-9O-ey2"/>
+                        <outlet property="lblContactUs" destination="hxe-4g-DN4" id="tCo-hF-4Bd"/>
                         <outlet property="lblProgrammeOverview" destination="hGt-BZ-OeE" id="oGn-od-cl8"/>
                     </connections>
                 </viewController>

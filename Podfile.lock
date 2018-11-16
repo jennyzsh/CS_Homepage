@@ -1,16 +1,20 @@
 PODS:
+  - KILabel (1.0.0)
   - YALSideMenu (2.0.1)
 
 DEPENDENCIES:
+  - KILabel (= 1.0.0)
   - YALSideMenu
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - KILabel
     - YALSideMenu
 
 SPEC CHECKSUMS:
+  KILabel: 84049969642d4ac1061ebe38ad4c0da37fed108b
   YALSideMenu: 4d6b90ea44dcdded18a99e46b676e4ad51d9c6bb
 
-PODFILE CHECKSUM: 8dc7be5740d0672022b676f18d8cc7b4ae85308a
+PODFILE CHECKSUM: 330ededa925679c7460cd90d47e2b25f52699b96
 
 COCOAPODS: 1.5.3

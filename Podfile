@@ -8,5 +8,6 @@ target 'CS_Homepage' do
   # Pods for CS_Homepage
 
 pod 'YALSideMenu'
+pod 'KILabel', '1.0.0'
 
 end

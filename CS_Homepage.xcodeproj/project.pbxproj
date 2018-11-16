@@ -23,6 +23,8 @@
 		BA0DF548219DCB6300642537 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF547219DCB6300642537 /* menu.json */; };
 		BA0DF54B219DCD4100642537 /* SubmenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DF549219DCD4100642537 /* SubmenuViewController.swift */; };
 		BA0DF54E219E8AFF00642537 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DF54D219E8AFF00642537 /* UILabel.swift */; };
+		BA0DF558219E930800642537 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DF557219E930800642537 /* String.swift */; };
+		BA0DF55A219E953200642537 /* KIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DF559219E953200642537 /* KIHandler.swift */; };
 		BAFF5067219D3DA900F2A848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF5066219D3DA900F2A848 /* AppDelegate.swift */; };
 		BAFF5069219D3DA900F2A848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF5068219D3DA900F2A848 /* ViewController.swift */; };
 		BAFF506C219D3DA900F2A848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFF506A219D3DA900F2A848 /* Main.storyboard */; };
@@ -53,6 +55,9 @@
 		BA0DF547219DCB6300642537 /* menu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		BA0DF549219DCD4100642537 /* SubmenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmenuViewController.swift; sourceTree = "<group>"; };
 		BA0DF54D219E8AFF00642537 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		BA0DF556219E904500642537 /* CS_Homepage-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CS_Homepage-Bridging-Header.h"; sourceTree = "<group>"; };
+		BA0DF557219E930800642537 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		BA0DF559219E953200642537 /* KIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIHandler.swift; sourceTree = "<group>"; };
 		BAFF5063219D3DA900F2A848 /* CS_Homepage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CS_Homepage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFF5066219D3DA900F2A848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAFF5068219D3DA900F2A848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +153,7 @@
 		BAFF5065219D3DA900F2A848 /* CS_Homepage */ = {
 			isa = PBXGroup;
 			children = (
+				BA0DF556219E904500642537 /* CS_Homepage-Bridging-Header.h */,
 				BA0DF53E219DBF8B00642537 /* Utility */,
 				BA0DF535219DB87900642537 /* About */,
 				BA0DF532219DAF6300642537 /* data */,
@@ -192,6 +198,8 @@
 				BAFF508D219D62AC00F2A848 /* UITableViewCell.swift */,
 				BA0DF52B219D9C1E00642537 /* UIButton.swift */,
 				BA0DF54D219E8AFF00642537 /* UILabel.swift */,
+				BA0DF557219E930800642537 /* String.swift */,
+				BA0DF559219E953200642537 /* KIHandler.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -309,12 +317,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CS_Homepage/Pods-CS_Homepage-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KILabel/KILabel.framework",
 				"${BUILT_PRODUCTS_DIR}/YALSideMenu/SideMenu.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KILabel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +341,7 @@
 			files = (
 				BAFF508A219D566600F2A848 /* AnimationDelegate.swift in Sources */,
 				BA0DF53D219DBD9C00642537 /* AboutHkuViewController.swift in Sources */,
+				BA0DF55A219E953200642537 /* KIHandler.swift in Sources */,
 				BAFF5069219D3DA900F2A848 /* ViewController.swift in Sources */,
 				BA0DF530219DABB000642537 /* InstructorTableViewCell.swift in Sources */,
 				BA0DF54E219E8AFF00642537 /* UILabel.swift in Sources */,
@@ -341,6 +352,7 @@
 				BA0DF52C219D9C1E00642537 /* UIButton.swift in Sources */,
 				BA0DF540219DBF9D00642537 /* StringUtility.swift in Sources */,
 				BAFF5086219D563900F2A848 /* CircularRevealTransitionAnimator.swift in Sources */,
+				BA0DF558219E930800642537 /* String.swift in Sources */,
 				BA0DF537219DB87900642537 /* FacultyViewController.swift in Sources */,
 				BAFF508E219D62AC00F2A848 /* UITableViewCell.swift in Sources */,
 				BA0DF52A219D95BB00642537 /* HomePageViewController.swift in Sources */,

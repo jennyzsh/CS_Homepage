@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import KILabel
 
 extension UILabel {
     @IBInspectable var borderWidth: CGFloat {

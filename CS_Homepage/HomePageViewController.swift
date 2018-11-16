@@ -7,17 +7,18 @@
 //
 
 import UIKit
+import KILabel
 
 class HomePageViewController: UIViewController {
 
     @IBOutlet weak var lblProgrammeOverview: UILabel!
-    @IBOutlet weak var lblContactUs: UILabel!
+    @IBOutlet weak var lblContactUs: KILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.lblProgrammeOverview.text = StringUtility.getStringOf(keyName: "ProgrammeOverview")
         self.lblContactUs.text = StringUtility.getStringOf(keyName: "ContactUs")
-
+        self.lblContactUs.urlLinkTapHandler = KIHandler().linkTapHandler
     }
     
     @IBAction func clickToMoreDetail(_ sender: UIButton) {
