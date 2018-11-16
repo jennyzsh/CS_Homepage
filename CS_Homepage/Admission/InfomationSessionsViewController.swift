@@ -10,21 +10,26 @@ import UIKit
 
 class InfomationSessionsViewController: UIViewController {
 
+    @IBOutlet weak var lblContent1: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title = "Information Sessions"
+        self.lblContent1.text = StringUtility.getStringOf(keyName: "InfoSession1")
 
-        // Do any additional setup after loading the view.
+
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func didPressBtnRegister(_ sender: UIButton) {
+        let url = "https://www.msc-cs.hku.hk/frmreginformationsession1"
+        if let link = URL(string: url){
+            if #available(iOS 10.0, *) {
+                UIApplication.shared.openURL(link)
+            } else {
+                UIApplication.shared.open(link, options: [:], completionHandler: nil)
+            }
+        }
     }
-    */
+    
 
 }
