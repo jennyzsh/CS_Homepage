@@ -19,6 +19,30 @@
     "admission": {
         "title": "Admission",
         "submenu": [
+            {
+                "title": "Admission Requirements",
+                "view_controller": "AdmissionRequirementsViewController"
+            },
+            {
+                "title": "Application Procedures",
+                "view_controller": "ApplicationProceduresViewController"
+            },
+            {
+                "title": "Composition Fees",
+                "view_controller": "CompositionFeesViewController"
+            },
+            {
+                "title": "Graduate Words",
+                "view_controller": "GraduateWordsViewController"
+            },
+            {
+                "title": "Information Sessions",
+                "view_controller": "InfomationSessionsViewController"
+            },
+            {
+                "title": "FAQ",
+                "view_controller": "FAQViewController"
+            }
         ]
     },
     "curriculum": {

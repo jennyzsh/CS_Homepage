@@ -15,7 +15,123 @@
  Sat: 9:00am-12:00pm</string>
 	<key>AboutHKU</key>
 	<string>The University of Hong Kong  The University of Hong Kong (HKU), founded in 1911, is the oldest of Hong Kong’s institutions of higher learning.  It was also the alma mater of Dr. Sun Yat-sen, the founder of modern China.  HKU, as a pre-eminent international university, seeks to sustain and enhance its excellence as an institution of higher learning through outstanding teaching and world-class research so as to produce well-rounded graduates with lifelong abilities to provide leadership within the societies they serve.  HKU has ten faculties, a graduate school and a number of independent centres of studies and learning. In 2016-17, it had a student population of over 27,800, including over 16,100 undergraduates and 11,700 postgraduates, and an academic staff population of around 3,400. Coupled with an active alumni network and generous endowments for programme research and development, HKU is a dynamic and exciting institution. Stepping into Asia’s next century of phenomenal growth.</string>
-	<key>New item</key>
-	<string></string>
+	<key>AdmissionRequirements</key>
+	<string>Admission Requirements
+
+Eligibility
+
+To be eligible for admission to the programmes, a candidate shall satisfy both the University Entrance Requirements and the Programme Entrance Requirements including but not limited to:
+
+a.    shall comply with the General Regulations;
+
+b.    shall hold a Bachelor’s degree of this University or a qualification of equivalent standard from this University or another comparable institution accepted for this purpose;
+
+c.    for a candidate who is seeking admission on the basis of a qualification from a university or comparable institution outside Hong Kong of which the language of teaching and/or examination is not English, shall satisfy the University English language requirement applicable to high degrees as prescribed under General Regulation G2(b); and
+
+d.    satisfy the examiners in a qualifying examination if required.
+
+Regulations:
+
+1. General Regulations of The University
+https://www4.hku.hk/pubunit/drcd/files/pgdr2017-18/genreg.pdf
+
+2. University&apos;s Regulations for Taught Postgraduate Curricula: 
+https://www4.hku.hk/pubunit/drcd/files/pgdr2017-18/tpg-regulations.pdf
+
+3. Degree Regulations of MSc(CompSc) for students admitted to the curriculum in 2017-2018 and thereafter:
+http://www.msc-cs.hku.hk/Media/Default/RegulationSyllabus/Regulations_MSc_2017-18.pdf
+http://www.msc-cs.hku.hk/Media/Default/RegulationSyllabus/Syllabus_MSc(CompSc)_2018-19.pdf
+
+English Language Proficiency Requirement
+
+Applicants who wish to be admitted on the basis of a qualification from a university or comparable institution outside Hong Kong where the language of teaching and/or examination is not English are required to obtain:
+
+a. a score of 550 or above (paper-based test) or 80 or above (internet-based test) in the Test of English as a Foreign Language (TOEFL).  Applicants who took the TOEFL should request the Educational Testing Service (ETS) to send an official score report to the University directly. For this purpose, the HKU TOEFL code is 9671. Test scores more than two years old will not be accepted; or
+
+b. a minimum overall band of 6 with no subtest lower than 5.5 in the International English Language Testing System (IELTS); or
+
+c. grade C or above in the Overseas General Certificate of Education (GCE); or
+
+d. grade C or above in the International General Certificate of Secondary Education (IGCSE); or
+
+e. grade C or above in the Cambridge Test of Proficiency in English Language;
+
+unless in exceptional circumstances they are exempted from this requirement.</string>
+	<key>ApplicationProcedure1</key>
+	<string>Application Procedures
+
+Applicants can submit their application via the online application system by clicking the following button.</string>
+	<key>ApplicationProcedure2</key>
+	<string>The following supporting documents should be uploaded to the online application system before the application deadline or expiry of your application account (which is valid for four weeks only), whichever is earlier:
+
+• Graduate transcript(s) with grading system of all tertiary level studies
+
+• Degree certificate(s)
+
+• English Language proficiency test score report, such as TOEFL or IELTS (only for applicants with qualifications from institutions outside Hong Kong where the language of instruction and/or examination is not English)
+
+• Proof of Cumulative Grade Point Average (CGPA) / average grade / average mark
+
+• Official proof of class ranking, if available
+
+• A curriculum vitae (C.V.)
+
+Applicants are not required to submit original documents during the application stage.  Should an applicant be given an admission offer by the Programme, he/she will receive notification of the need to submit original/certified true copy* of the documents to the MSc(CompSc) Programme Office.
+
+Please note that documents once submitted will not be returned, and will be destroyed if the application is unsuccessful.
+
+*The University will only ACCEPT originals and copies of the documents that have been duly declared as true copies before a notary public.
+
+Application Fee
+
+The application fee is HK$300 (non-refundable), paid by credit card online.
+
+*The University will only ACCEPT originals and copies of the documents that have been duly declared as true copies before a notary public.
+
+
+Application Fee
+
+The application fee is HK$300 (non-refundable), paid by credit card online.
+
+Application Timetable
+</string>
+	<key>ApplicationProcedure3</key>
+	<string>To be considered for a round, you must submit a complete application, including all online / mail-in materials by the day of the deadline.
+
+The results for admission in September are normally available by July of the same year. Hence, applicants who do not hear from the Faculty of Engineering by July 31, 2019 may assume the application to be unsuccessful. </string>
+	<key>CompositionFees</key>
+	<string>Composition Fees
+
+The composition fee for each 6 credit-units in MSc(CompSc) is HK$13,000*.  The dissertation, which is equivalent to 24 credits, has a composition fee of HK$52,000*.  The total composition fees are therefore as follows:
+
+48 credit-units (8 courses) + dissertation:
+(HK$13,000* x 8) + (HK$52,000*) = HK$156,000*
+
+Students who select to study a course from the MSc(ECom&amp;IComp) and MSc(Eng) programmes have to pay HK$13,000* and HK$12,000* respectively per 6-credit course.
+
+* Subject to University approval
+
+Fees for enrolled courses are paid on semester basis.  The first instalment of composition fees of 12 credit-units is payable at the time of acceptance of an offer of admission.
+
+Generally composition fees for cancelled enrolment before specified deadline are not refunded, but can be used to pay for another enrolled course or carried over to the next semester as credit. (Subject to the approval by the University)
+
+
+
+
+Financial Assistance
+
+For Hong Kong Residents
+
+Continuing Education Fund (CEF)Some of our courses have been included in the list of reimbursable courses for the Hong Kong Continuing Education Fund (CEF) which provides reimbursement up to HK$10,000 for eligible local students.  More details available at: http://www.wfsfaa.gov.hk/cef/index.htm
+
+For PRC Candidates
+
+PRC students who have successfully applied and been offered a place in the Master of Science in Computer Science as full-time students in Hong Kong have an opportunity to have their composition fees reduced if they apply and are awarded The China Postgraduate Scholarships for Computer Science.
+
+The maximum number of scholarships for 2019-20 is thirty, with a maximum value of HK$30,000 each.
+
+The scholarships shall be used to meet part of the composition fees for a full-time programme of studies leading to the degree of Master of Science in Computer Science.
+
+The scholarships shall be awarded mainly on the basis of academic merits.</string>
 </dict>
 </plist>
