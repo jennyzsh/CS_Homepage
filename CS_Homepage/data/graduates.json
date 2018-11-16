@@ -1,0 +1,16 @@
+{
+    "graduates": [
+        {
+            "name": "Mr. Clark Matthew William",
+            "year_of_graduate": "2017 graduate",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/Students/Clark.jpg",
+            "words": "After studying and working for several years in the United States, I chose to do my Master's degree at HKU based on the sterling reputation that the University and the CS programme have around the world. Having the flexibility to design my own studies and select interesting courses as well as having the opportunity to learn from top professors really appealed to me. The coursework was challenging yet fulfilling, and topics were relevant for today's fast-changing world. I have been able to work with cutting-edge robotic systems during my dissertation project, and I am excited to begin a new career in the technology field armed with my MSc from HKU."
+        },
+        {
+            "name": "Miss Cui Yitong",
+            "year_of_graduate": "2017 student",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/Students/photo_Cui%20Yitong_1.jpg",
+            "words": "Studying in HKU MSc(CompSc) has prepared me for success in a couple of ways.  First, MSc(CompSc) offers a range of courses tailored to meet the specific academic and professional goals of each student.  Most of the hot topics are involved, such as Machine Learning, Data Mining, Deep Learning, Cloud Computing, Blockchain technology, etc.  When I do job-hunting, I find the courses have really offered help to me down-to-earth.  The programme also gives me much resources of knowledge and job opportunities.  Second, the strict requirements of each course induce me to be hard-working all the time, and provide me with many advanced learning skills.  The teamwork tasks gave me opportunity to know more about my classmates, who are down-to-earth and humble. <br>Countless sleepless nights in HKU MSc(CompSc)  made me a better person.  It was an incredible experience that I don't think I could have anywhere else."
+        }
+    ]
+}

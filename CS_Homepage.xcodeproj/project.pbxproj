@@ -31,6 +31,10 @@
 		BA0DF563219E9B3700642537 /* GraduateWordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DF562219E9B3700642537 /* GraduateWordsViewController.swift */; };
 		BA0DF565219E9B4F00642537 /* InfomationSessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DF564219E9B4F00642537 /* InfomationSessionsViewController.swift */; };
 		BA0DF56A219EA7FC00642537 /* application_procedure_table.html in Resources */ = {isa = PBXBuildFile; fileRef = BA0DF569219EA7FC00642537 /* application_procedure_table.html */; };
+		BAC2EDFD219EB20E002A1951 /* GraduateWordsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2EDFB219EB20E002A1951 /* GraduateWordsTableViewCell.swift */; };
+		BAC2EDFE219EB20E002A1951 /* GraduateWordsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC2EDFC219EB20E002A1951 /* GraduateWordsTableViewCell.xib */; };
+		BAC2EE00219EB4E5002A1951 /* graduates.json in Resources */ = {isa = PBXBuildFile; fileRef = BAC2EDFF219EB4E5002A1951 /* graduates.json */; };
+		BAC2EE02219EBB08002A1951 /* GraduateWordsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2EE01219EBB08002A1951 /* GraduateWordsDetailViewController.swift */; };
 		BAFF5067219D3DA900F2A848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF5066219D3DA900F2A848 /* AppDelegate.swift */; };
 		BAFF5069219D3DA900F2A848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF5068219D3DA900F2A848 /* ViewController.swift */; };
 		BAFF506C219D3DA900F2A848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFF506A219D3DA900F2A848 /* Main.storyboard */; };
@@ -70,6 +74,10 @@
 		BA0DF562219E9B3700642537 /* GraduateWordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraduateWordsViewController.swift; sourceTree = "<group>"; };
 		BA0DF564219E9B4F00642537 /* InfomationSessionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfomationSessionsViewController.swift; sourceTree = "<group>"; };
 		BA0DF569219EA7FC00642537 /* application_procedure_table.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = application_procedure_table.html; sourceTree = "<group>"; };
+		BAC2EDFB219EB20E002A1951 /* GraduateWordsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraduateWordsTableViewCell.swift; sourceTree = "<group>"; };
+		BAC2EDFC219EB20E002A1951 /* GraduateWordsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GraduateWordsTableViewCell.xib; sourceTree = "<group>"; };
+		BAC2EDFF219EB4E5002A1951 /* graduates.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = graduates.json; sourceTree = "<group>"; };
+		BAC2EE01219EBB08002A1951 /* GraduateWordsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraduateWordsDetailViewController.swift; sourceTree = "<group>"; };
 		BAFF5063219D3DA900F2A848 /* CS_Homepage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CS_Homepage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFF5066219D3DA900F2A848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAFF5068219D3DA900F2A848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +121,8 @@
 				BA0DF52F219DABB000642537 /* InstructorTableViewCell.xib */,
 				BA0DF543219DC94D00642537 /* SubmenuTableViewCell.swift */,
 				BA0DF544219DC94D00642537 /* SubmenuTableViewCell.xib */,
+				BAC2EDFB219EB20E002A1951 /* GraduateWordsTableViewCell.swift */,
+				BAC2EDFC219EB20E002A1951 /* GraduateWordsTableViewCell.xib */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -121,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				BA0DF533219DAF8A00642537 /* instructors.json */,
+				BAC2EDFF219EB4E5002A1951 /* graduates.json */,
 				BA0DF547219DCB6300642537 /* menu.json */,
 			);
 			path = data;
@@ -152,6 +163,7 @@
 				BA0DF560219E9B2800642537 /* CompositionFeesViewController.swift */,
 				BA0DF562219E9B3700642537 /* GraduateWordsViewController.swift */,
 				BA0DF564219E9B4F00642537 /* InfomationSessionsViewController.swift */,
+				BAC2EE01219EBB08002A1951 /* GraduateWordsDetailViewController.swift */,
 			);
 			path = Admission;
 			sourceTree = "<group>";
@@ -306,11 +318,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC2EDFE219EB20E002A1951 /* GraduateWordsTableViewCell.xib in Resources */,
 				BA0DF534219DAF8A00642537 /* instructors.json in Resources */,
 				BA0DF546219DC94D00642537 /* SubmenuTableViewCell.xib in Resources */,
 				BA0DF531219DABB000642537 /* InstructorTableViewCell.xib in Resources */,
 				BA0DF56A219EA7FC00642537 /* application_procedure_table.html in Resources */,
 				BAFF5071219D3DAA00F2A848 /* LaunchScreen.storyboard in Resources */,
+				BAC2EE00219EB4E5002A1951 /* graduates.json in Resources */,
 				BAFF506E219D3DAA00F2A848 /* Assets.xcassets in Resources */,
 				BAFF506C219D3DA900F2A848 /* Main.storyboard in Resources */,
 				BA0DF548219DCB6300642537 /* menu.json in Resources */,
@@ -384,6 +398,7 @@
 				BA0DF54E219E8AFF00642537 /* UILabel.swift in Sources */,
 				BAFF507D219D46E800F2A848 /* SideMenuViewController.swift in Sources */,
 				BA0DF539219DB88D00642537 /* DirectorMsgViewController.swift in Sources */,
+				BAC2EE02219EBB08002A1951 /* GraduateWordsDetailViewController.swift in Sources */,
 				BAFF5067219D3DA900F2A848 /* AppDelegate.swift in Sources */,
 				BA0DF565219E9B4F00642537 /* InfomationSessionsViewController.swift in Sources */,
 				BA0DF55F219E9B1C00642537 /* ApplicationProceduresViewController.swift in Sources */,
@@ -397,6 +412,7 @@
 				BAFF508E219D62AC00F2A848 /* UITableViewCell.swift in Sources */,
 				BA0DF52A219D95BB00642537 /* HomePageViewController.swift in Sources */,
 				BA0DF54B219DCD4100642537 /* SubmenuViewController.swift in Sources */,
+				BAC2EDFD219EB20E002A1951 /* GraduateWordsTableViewCell.swift in Sources */,
 				BAFF5088219D564D00F2A848 /* CircularRevealAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
