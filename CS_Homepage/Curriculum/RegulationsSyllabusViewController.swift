@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import KILabel
 
 class RegulationsSyllabusViewController: UIViewController {
-
+    
+    @IBOutlet weak var lblContent: KILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationItem.title = "Regulations"
+        self.lblContent.text = StringUtility.getStringOf(keyName: "Regulations")
+        self.lblContent.urlLinkTapHandler = KIHandler().linkTapHandler
     }
 
 

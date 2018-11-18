@@ -638,10 +638,10 @@
             </objects>
             <point key="canvasLocation" x="1942" y="2301"/>
         </scene>
-        <!--Regulations Syllabus View Controller-->
+        <!--Duration Schedule View Controller-->
         <scene sceneID="86B-Z0-xXc">
             <objects>
-                <viewController storyboardIdentifier="RegulationsSyllabusViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hmN-ah-xQ8" customClass="RegulationsSyllabusViewController" customModule="CS_Homepage" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DurationScheduleViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hmN-ah-xQ8" customClass="DurationScheduleViewController" customModule="CS_Homepage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IqT-zn-bx6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -700,6 +700,37 @@ Full-time: 1-2 years</mutableString>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CMf-fq-2fm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2649" y="1941"/>
+        </scene>
+        <!--Regulations Syllabus View Controller-->
+        <scene sceneID="HAT-3a-fMy">
+            <objects>
+                <viewController storyboardIdentifier="RegulationsSyllabusViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Yle-fA-16W" customClass="RegulationsSyllabusViewController" customModule="CS_Homepage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Iy-RC-Ye9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CME-PV-llW" customClass="KILabel">
+                                <rect key="frame" x="20" y="40" width="335" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="CME-PV-llW" firstAttribute="top" secondItem="Yuj-SM-aTE" secondAttribute="top" constant="20" id="Tge-Cg-hVI"/>
+                            <constraint firstItem="Yuj-SM-aTE" firstAttribute="trailing" secondItem="CME-PV-llW" secondAttribute="trailing" constant="20" id="i8Y-fD-s5o"/>
+                            <constraint firstItem="CME-PV-llW" firstAttribute="leading" secondItem="Yuj-SM-aTE" secondAttribute="leading" constant="20" id="yj9-YM-ExM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Yuj-SM-aTE"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblContent" destination="CME-PV-llW" id="9Ez-Gd-yK4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aTn-xG-0a7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3358" y="1941"/>
         </scene>
         <!--Application Procedures View Controller-->
         <scene sceneID="Liz-RZ-QqE">

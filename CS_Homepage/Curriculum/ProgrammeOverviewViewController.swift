@@ -31,6 +31,7 @@ class ProgrammeOverviewViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title = "Programme Overview"
         self.setupLayout()
     }
     
