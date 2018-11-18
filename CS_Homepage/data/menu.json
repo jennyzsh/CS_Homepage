@@ -83,6 +83,10 @@
     "student_resource": {
         "title": "Student Resources",
         "submenu": [
+            {
+                "title": "Useful Links",
+                "view_controller": "UsefulLinksViewController"
+            },
         ]
     }
 }
