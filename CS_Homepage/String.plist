@@ -149,5 +149,49 @@ Join us at the information sessions, and find out if the Master of Science in Co
 Information sessions will be organized in Hong Kong and Mainland China. Details of these information sessions will be announced on our website and/or advertised online and in major local newspapers.
 
 Details of the information session:</string>
+	<key>ProgrammeOverview1</key>
+	<string>The MSc(CompSc) programme is a comprehensive postgraduate study programme provides advanced and in-depth learning in Computer Science.  The programme is credit unit based, with courses of both applied and fundamental nature.
+
+Students can choose focussed streams of study or a comprehensive and diversified study in Computer Science, i.e. the General Stream.
+
+Focussed streams of study represent a cohesive collection of related courses that provides both fundamental and in-depth exposure to students in a given ICT domain.  Students can extend and deepen their knowledge in the specialization streams in Cyber Security, Multimedia Computing and Financial Computing. </string>
+	<key>ProgrammeOverviewCyber Security</key>
+	<string>The Cyber Security Stream is a multidisciplinary area of study and professional activity concerned with state-of-the-art technology in cyber security. The curriculum covers different aspects of cyber security from different perspectives, including technical, organisational, human-oriented and legal.</string>
+	<key>ProgrammeOverviewMultimediaComputing</key>
+	<string>The Multimedia Computing Stream focuses on multimedia computing, communications, analytics, visualisation and applications.
+
+Multimedia Computing encompasses media coding and processing, streaming-media middleware, media representations, real-time protocols, media analysis, and human-interaction and visualisation techniques.
+
+Students are encouraged to develop innovative ideas using the latest development in technology such as mobile devices and big-data analytics.</string>
+	<key>ProgrammeOverviewFinancialComputing</key>
+	<string>The Financial Computing Stream is the study of data and algorithms used in finance and the mathematics of computer programs that realise financial models or systems.
+
+Financial Computing emphasises practical numerical methods and focuses on techniques that are directly applicable to business and financial analysis.
+
+The emphasis will be in the computing aspect of the financial industry.</string>
+	<key>ProgrammeOverviewGeneralStream</key>
+	<string>The General Stream covers a broad, comprehensive range of Computer Science subjects, including a wide range of courses from which students can choose from. It offers students the most flexibility to design their own study portfolio based on their career aspiration or requirements.</string>
+	<key>ProgrammeOverview2</key>
+	<string>Students are required to complete 72 credits of courses selected from the syllabus which must include capstone experience.</string>
+	<key>ProgrammeOverview3</key>
+	<string>Students can study in one of the following enrolment modes:
+
+(a)Courses (60 credits)^ + Project (12 credits)
+
+     i.e. 10 Courses + Project
+
+OR
+
+(b)Courses (48 credits)^ + Dissertation (24 credits)
+
+     i.e. 8 Courses + Dissertation
+
+^ Each course normally carries 6 credits</string>
+	<key>ProgrammeOverview4</key>
+	<string>Students shall select courses in accordance with the regulations of the degree. To qualify as a graduate of Cyber Security, Financial Computing, or Multimedia Computing Stream, students must pass at least 4 stream specific courses (at least 24 credits in total) in the corresponding subject group, and undertake a dissertation or a project in the area of the corresponding stream. For General Stream, students can choose any discipline courses from any subject group, and undertake a dissertation or a project in any area in computer science
+
+Students may select no more than 2 courses (at most 12 credits in total) offered by the MSc(ECom&amp;IComp) and MSc(Eng) curricula in the Faculty of Engineering as electives.</string>
+	<key>ProgrammeOverview5</key>
+	<string>The capstone experience will definitely be beneficial for students to put together what they have learnt in the programme and demonstrate a deeper understanding of the knowledge they have acquired. Students are required to complete a dissertation (24 credits) or a project (12 credits), and attend some supplementary workshops. The dissertation / project would represent students’ consolidated capstone experience in their study.</string>
 </dict>
 </plist>

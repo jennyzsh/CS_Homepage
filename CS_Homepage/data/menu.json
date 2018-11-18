@@ -41,13 +41,29 @@
             },
             {
                 "title": "FAQ",
-                "view_controller": "FAQViewController"
+                "view_controller": "FaqTableViewController"
             }
         ]
     },
     "curriculum": {
         "title": "Curriculum",
         "submenu": [
+            {
+                "title": "Programme Overview",
+                "view_controller": "ProgrammeOverviewViewController"
+            },
+            {
+                "title": "Courses",
+                "view_controller": "CoursesViewController"
+            },
+            {
+                "title": "Duration & Schedule",
+                "view_controller": "DurationScheduleViewController"
+            },
+            {
+                "title": "Regulations & Syllabus",
+                "view_controller": "RegulationsSyllabusViewController"
+            },
         ]
     },
     "graduate": {
