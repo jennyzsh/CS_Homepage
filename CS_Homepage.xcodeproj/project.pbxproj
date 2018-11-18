@@ -42,6 +42,7 @@
 		BAD41A7221A1AC5900FCF596 /* ProgrammeOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD41A7121A1AC5900FCF596 /* ProgrammeOverviewViewController.swift */; };
 		BAD41A7421A1B5AD00FCF596 /* RegulationsSyllabusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD41A7321A1B5AD00FCF596 /* RegulationsSyllabusViewController.swift */; };
 		BAD41A7621A1B6F400FCF596 /* DurationScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD41A7521A1B6F400FCF596 /* DurationScheduleViewController.swift */; };
+		BAD41A7B21A1BB5600FCF596 /* AssociationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD41A7A21A1BB5600FCF596 /* AssociationViewController.swift */; };
 		BAFF5067219D3DA900F2A848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF5066219D3DA900F2A848 /* AppDelegate.swift */; };
 		BAFF5069219D3DA900F2A848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF5068219D3DA900F2A848 /* ViewController.swift */; };
 		BAFF506C219D3DA900F2A848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFF506A219D3DA900F2A848 /* Main.storyboard */; };
@@ -92,6 +93,7 @@
 		BAD41A7121A1AC5900FCF596 /* ProgrammeOverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammeOverviewViewController.swift; sourceTree = "<group>"; };
 		BAD41A7321A1B5AD00FCF596 /* RegulationsSyllabusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegulationsSyllabusViewController.swift; sourceTree = "<group>"; };
 		BAD41A7521A1B6F400FCF596 /* DurationScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationScheduleViewController.swift; sourceTree = "<group>"; };
+		BAD41A7A21A1BB5600FCF596 /* AssociationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociationViewController.swift; sourceTree = "<group>"; };
 		BAFF5063219D3DA900F2A848 /* CS_Homepage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CS_Homepage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFF5066219D3DA900F2A848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAFF5068219D3DA900F2A848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -204,6 +206,28 @@
 			path = Curriculum;
 			sourceTree = "<group>";
 		};
+		BAD41A7721A1BB0900FCF596 /* StudentResources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StudentResources;
+			sourceTree = "<group>";
+		};
+		BAD41A7821A1BB0900FCF596 /* Graduate */ = {
+			isa = PBXGroup;
+			children = (
+				BAD41A7A21A1BB5600FCF596 /* AssociationViewController.swift */,
+			);
+			path = Graduate;
+			sourceTree = "<group>";
+		};
+		BAD41A7921A1BB0A00FCF596 /* News */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
 		BAFF505A219D3DA900F2A848 = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +249,9 @@
 		BAFF5065219D3DA900F2A848 /* CS_Homepage */ = {
 			isa = PBXGroup;
 			children = (
+				BAD41A7821A1BB0900FCF596 /* Graduate */,
+				BAD41A7921A1BB0A00FCF596 /* News */,
+				BAD41A7721A1BB0900FCF596 /* StudentResources */,
 				BAD41A7021A1AC4900FCF596 /* Curriculum */,
 				BA0DF556219E904500642537 /* CS_Homepage-Bridging-Header.h */,
 				BA0DF568219EA7D000642537 /* resources */,
@@ -441,6 +468,7 @@
 				BA0DF545219DC94D00642537 /* SubmenuTableViewCell.swift in Sources */,
 				BA0DF52C219D9C1E00642537 /* UIButton.swift in Sources */,
 				BA0DF540219DBF9D00642537 /* StringUtility.swift in Sources */,
+				BAD41A7B21A1BB5600FCF596 /* AssociationViewController.swift in Sources */,
 				BAFF5086219D563900F2A848 /* CircularRevealTransitionAnimator.swift in Sources */,
 				BA0DF558219E930800642537 /* String.swift in Sources */,
 				BA0DF55D219E9AFD00642537 /* AdmissionRequirementsViewController.swift in Sources */,

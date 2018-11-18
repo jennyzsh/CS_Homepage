@@ -69,6 +69,10 @@
     "graduate": {
         "title": "Graduate & Alumni",
         "submenu": [
+            {
+                "title": "MSc(CompSc) Alumni Association",
+                "view_controller": "AssociationViewController"
+            },
         ]
     },
     "news":{
