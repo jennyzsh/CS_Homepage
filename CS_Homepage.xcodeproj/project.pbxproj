@@ -40,6 +40,7 @@
 		BAD41A6D21A19CE200FCF596 /* FaqTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD41A6B21A19CE200FCF596 /* FaqTableViewCell.xib */; };
 		BAD41A6F21A19DBA00FCF596 /* FaqTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD41A6E21A19DBA00FCF596 /* FaqTableViewController.swift */; };
 		BAD41A7221A1AC5900FCF596 /* ProgrammeOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD41A7121A1AC5900FCF596 /* ProgrammeOverviewViewController.swift */; };
+		BAD41A7421A1B5AD00FCF596 /* RegulationsSyllabusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD41A7321A1B5AD00FCF596 /* RegulationsSyllabusViewController.swift */; };
 		BAFF5067219D3DA900F2A848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF5066219D3DA900F2A848 /* AppDelegate.swift */; };
 		BAFF5069219D3DA900F2A848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF5068219D3DA900F2A848 /* ViewController.swift */; };
 		BAFF506C219D3DA900F2A848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFF506A219D3DA900F2A848 /* Main.storyboard */; };
@@ -88,6 +89,7 @@
 		BAD41A6B21A19CE200FCF596 /* FaqTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FaqTableViewCell.xib; sourceTree = "<group>"; };
 		BAD41A6E21A19DBA00FCF596 /* FaqTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaqTableViewController.swift; sourceTree = "<group>"; };
 		BAD41A7121A1AC5900FCF596 /* ProgrammeOverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammeOverviewViewController.swift; sourceTree = "<group>"; };
+		BAD41A7321A1B5AD00FCF596 /* RegulationsSyllabusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegulationsSyllabusViewController.swift; sourceTree = "<group>"; };
 		BAFF5063219D3DA900F2A848 /* CS_Homepage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CS_Homepage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFF5066219D3DA900F2A848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAFF5068219D3DA900F2A848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				BAD41A7121A1AC5900FCF596 /* ProgrammeOverviewViewController.swift */,
+				BAD41A7321A1B5AD00FCF596 /* RegulationsSyllabusViewController.swift */,
 			);
 			path = Curriculum;
 			sourceTree = "<group>";
@@ -430,6 +433,7 @@
 				BAFF5067219D3DA900F2A848 /* AppDelegate.swift in Sources */,
 				BA0DF565219E9B4F00642537 /* InfomationSessionsViewController.swift in Sources */,
 				BA0DF55F219E9B1C00642537 /* ApplicationProceduresViewController.swift in Sources */,
+				BAD41A7421A1B5AD00FCF596 /* RegulationsSyllabusViewController.swift in Sources */,
 				BA0DF545219DC94D00642537 /* SubmenuTableViewCell.swift in Sources */,
 				BA0DF52C219D9C1E00642537 /* UIButton.swift in Sources */,
 				BA0DF540219DBF9D00642537 /* StringUtility.swift in Sources */,

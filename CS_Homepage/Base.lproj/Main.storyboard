@@ -638,6 +638,69 @@
             </objects>
             <point key="canvasLocation" x="1942" y="2301"/>
         </scene>
+        <!--Regulations Syllabus View Controller-->
+        <scene sceneID="86B-Z0-xXc">
+            <objects>
+                <viewController storyboardIdentifier="RegulationsSyllabusViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hmN-ah-xQ8" customClass="RegulationsSyllabusViewController" customModule="CS_Homepage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IqT-zn-bx6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duration of Study" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bpF-p1-JUn">
+                                <rect key="frame" x="20" y="40" width="335" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dp3-5P-NEb">
+                                <rect key="frame" x="20" y="68" width="335" height="197"/>
+                                <mutableString key="text">The MSc(CompSc) programme is offered in both full-time and part-time modes.  
+
+There are 3 semesters in an academic year, i.e. semester 1: September – December, semester 2: January – May and the summer semester: June – August.
+
+Part-time: 2-3 years
+
+Full-time: 1-2 years</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Class Schedule" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vdv-GH-t9o">
+                                <rect key="frame" x="20" y="285" width="335" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZvT-qr-nuu">
+                                <rect key="frame" x="20" y="313" width="335" height="72"/>
+                                <string key="text">Classes are usually conducted in weekday evenings from 7:00 p.m., or during weekends.  Some courses will be offered mainly for full-time students in weekday daytime.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dp3-5P-NEb" firstAttribute="top" secondItem="bpF-p1-JUn" secondAttribute="bottom" constant="10" id="13G-ox-Xng"/>
+                            <constraint firstItem="bpF-p1-JUn" firstAttribute="leading" secondItem="F3P-fM-Zjf" secondAttribute="leading" constant="20" id="3PL-wh-3aa"/>
+                            <constraint firstItem="F3P-fM-Zjf" firstAttribute="trailing" secondItem="bpF-p1-JUn" secondAttribute="trailing" constant="20" id="7XE-KS-iHr"/>
+                            <constraint firstItem="Vdv-GH-t9o" firstAttribute="trailing" secondItem="dp3-5P-NEb" secondAttribute="trailing" id="Clr-Kq-Igt"/>
+                            <constraint firstItem="ZvT-qr-nuu" firstAttribute="leading" secondItem="Vdv-GH-t9o" secondAttribute="leading" id="H0V-qE-qjX"/>
+                            <constraint firstItem="bpF-p1-JUn" firstAttribute="top" secondItem="F3P-fM-Zjf" secondAttribute="top" constant="20" id="IGM-cU-52f"/>
+                            <constraint firstItem="Vdv-GH-t9o" firstAttribute="leading" secondItem="dp3-5P-NEb" secondAttribute="leading" id="IsJ-qK-3ZS"/>
+                            <constraint firstItem="dp3-5P-NEb" firstAttribute="leading" secondItem="bpF-p1-JUn" secondAttribute="leading" id="Ma9-86-IIe"/>
+                            <constraint firstItem="ZvT-qr-nuu" firstAttribute="trailing" secondItem="Vdv-GH-t9o" secondAttribute="trailing" id="QN1-3l-vvg"/>
+                            <constraint firstItem="dp3-5P-NEb" firstAttribute="trailing" secondItem="bpF-p1-JUn" secondAttribute="trailing" id="baR-8c-0ab"/>
+                            <constraint firstItem="ZvT-qr-nuu" firstAttribute="top" secondItem="Vdv-GH-t9o" secondAttribute="bottom" constant="10" id="fUh-73-NNg"/>
+                            <constraint firstItem="Vdv-GH-t9o" firstAttribute="top" secondItem="dp3-5P-NEb" secondAttribute="bottom" constant="20" id="ijz-1c-NM6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="F3P-fM-Zjf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CMf-fq-2fm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2649" y="1941"/>
+        </scene>
         <!--Application Procedures View Controller-->
         <scene sceneID="Liz-RZ-QqE">
             <objects>
