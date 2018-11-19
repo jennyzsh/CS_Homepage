@@ -36,6 +36,13 @@
 		BABF542221A2618B0088481D /* AlumniActivitiesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BABF542021A2618B0088481D /* AlumniActivitiesCollectionViewCell.xib */; };
 		BABF542421A266BD0088481D /* activities.json in Resources */ = {isa = PBXBuildFile; fileRef = BABF542321A266BD0088481D /* activities.json */; };
 		BABF542621A26F9C0088481D /* AlumniActivitiesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABF542521A26F9C0088481D /* AlumniActivitiesDetailViewController.swift */; };
+		BABF542821A27E870088481D /* CourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABF542721A27E870088481D /* CourcesViewController.swift */; };
+		BABF542A21A282850088481D /* CompCoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABF542921A282850088481D /* CompCoursesViewController.swift */; };
+		BABF542C21A282950088481D /* EComCoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABF542B21A282950088481D /* EComCoursesViewController.swift */; };
+		BABF542F21A288760088481D /* CompCoursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABF542D21A288760088481D /* CompCoursesTableViewCell.swift */; };
+		BABF543021A288760088481D /* CompCoursesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BABF542E21A288760088481D /* CompCoursesTableViewCell.xib */; };
+		BABF543221A28A2D0088481D /* courses.json in Resources */ = {isa = PBXBuildFile; fileRef = BABF543121A28A2D0088481D /* courses.json */; };
+		BABF543421A294CB0088481D /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABF543321A294CB0088481D /* UIColor.swift */; };
 		BAC2EDFD219EB20E002A1951 /* GraduateWordsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2EDFB219EB20E002A1951 /* GraduateWordsTableViewCell.swift */; };
 		BAC2EDFE219EB20E002A1951 /* GraduateWordsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC2EDFC219EB20E002A1951 /* GraduateWordsTableViewCell.xib */; };
 		BAC2EE00219EB4E5002A1951 /* graduates.json in Resources */ = {isa = PBXBuildFile; fileRef = BAC2EDFF219EB4E5002A1951 /* graduates.json */; };
@@ -95,6 +102,13 @@
 		BABF542021A2618B0088481D /* AlumniActivitiesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlumniActivitiesCollectionViewCell.xib; sourceTree = "<group>"; };
 		BABF542321A266BD0088481D /* activities.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = activities.json; sourceTree = "<group>"; };
 		BABF542521A26F9C0088481D /* AlumniActivitiesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlumniActivitiesDetailViewController.swift; sourceTree = "<group>"; };
+		BABF542721A27E870088481D /* CourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourcesViewController.swift; sourceTree = "<group>"; };
+		BABF542921A282850088481D /* CompCoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompCoursesViewController.swift; sourceTree = "<group>"; };
+		BABF542B21A282950088481D /* EComCoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EComCoursesViewController.swift; sourceTree = "<group>"; };
+		BABF542D21A288760088481D /* CompCoursesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompCoursesTableViewCell.swift; sourceTree = "<group>"; };
+		BABF542E21A288760088481D /* CompCoursesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompCoursesTableViewCell.xib; sourceTree = "<group>"; };
+		BABF543121A28A2D0088481D /* courses.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = courses.json; sourceTree = "<group>"; };
+		BABF543321A294CB0088481D /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		BAC2EDFB219EB20E002A1951 /* GraduateWordsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraduateWordsTableViewCell.swift; sourceTree = "<group>"; };
 		BAC2EDFC219EB20E002A1951 /* GraduateWordsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GraduateWordsTableViewCell.xib; sourceTree = "<group>"; };
 		BAC2EDFF219EB4E5002A1951 /* graduates.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = graduates.json; sourceTree = "<group>"; };
@@ -157,6 +171,8 @@
 				BAC2EDFC219EB20E002A1951 /* GraduateWordsTableViewCell.xib */,
 				BAD41A6A21A19CE200FCF596 /* FaqTableViewCell.swift */,
 				BAD41A6B21A19CE200FCF596 /* FaqTableViewCell.xib */,
+				BABF542D21A288760088481D /* CompCoursesTableViewCell.swift */,
+				BABF542E21A288760088481D /* CompCoursesTableViewCell.xib */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -169,6 +185,7 @@
 				BAC2EDFF219EB4E5002A1951 /* graduates.json */,
 				BA0DF547219DCB6300642537 /* menu.json */,
 				BABF542321A266BD0088481D /* activities.json */,
+				BABF543121A28A2D0088481D /* courses.json */,
 			);
 			path = data;
 			sourceTree = "<group>";
@@ -228,6 +245,9 @@
 				BAD41A7121A1AC5900FCF596 /* ProgrammeOverviewViewController.swift */,
 				BAD41A7321A1B5AD00FCF596 /* RegulationsSyllabusViewController.swift */,
 				BAD41A7521A1B6F400FCF596 /* DurationScheduleViewController.swift */,
+				BABF542721A27E870088481D /* CourcesViewController.swift */,
+				BABF542921A282850088481D /* CompCoursesViewController.swift */,
+				BABF542B21A282950088481D /* EComCoursesViewController.swift */,
 			);
 			path = Curriculum;
 			sourceTree = "<group>";
@@ -334,6 +354,7 @@
 				BA0DF54D219E8AFF00642537 /* UILabel.swift */,
 				BA0DF557219E930800642537 /* String.swift */,
 				BA0DF559219E953200642537 /* KIHandler.swift */,
+				BABF543321A294CB0088481D /* UIColor.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -408,7 +429,9 @@
 			files = (
 				BAC2EDFE219EB20E002A1951 /* GraduateWordsTableViewCell.xib in Resources */,
 				BA0DF534219DAF8A00642537 /* instructors.json in Resources */,
+				BABF543221A28A2D0088481D /* courses.json in Resources */,
 				BA0DF546219DC94D00642537 /* SubmenuTableViewCell.xib in Resources */,
+				BABF543021A288760088481D /* CompCoursesTableViewCell.xib in Resources */,
 				BAD41A6D21A19CE200FCF596 /* FaqTableViewCell.xib in Resources */,
 				BA0DF531219DABB000642537 /* InstructorTableViewCell.xib in Resources */,
 				BA0DF56A219EA7FC00642537 /* application_procedure_table.html in Resources */,
@@ -484,8 +507,10 @@
 				BAFF508A219D566600F2A848 /* AnimationDelegate.swift in Sources */,
 				BAD41A6F21A19DBA00FCF596 /* FaqTableViewController.swift in Sources */,
 				BA0DF53D219DBD9C00642537 /* AboutHkuViewController.swift in Sources */,
+				BABF542A21A282850088481D /* CompCoursesViewController.swift in Sources */,
 				BA0DF55A219E953200642537 /* KIHandler.swift in Sources */,
 				BAFF5069219D3DA900F2A848 /* ViewController.swift in Sources */,
+				BABF542821A27E870088481D /* CourcesViewController.swift in Sources */,
 				BAD41A7D21A1BD4700FCF596 /* UsefulLinksViewController.swift in Sources */,
 				BABF541D21A2611C0088481D /* AlumniActivitiesCollectionViewController.swift in Sources */,
 				BA0DF563219E9B3700642537 /* GraduateWordsViewController.swift in Sources */,
@@ -501,6 +526,8 @@
 				BAC2EE02219EBB08002A1951 /* GraduateWordsDetailViewController.swift in Sources */,
 				BAFF5067219D3DA900F2A848 /* AppDelegate.swift in Sources */,
 				BAD41A7621A1B6F400FCF596 /* DurationScheduleViewController.swift in Sources */,
+				BABF542C21A282950088481D /* EComCoursesViewController.swift in Sources */,
+				BABF543421A294CB0088481D /* UIColor.swift in Sources */,
 				BA0DF565219E9B4F00642537 /* InfomationSessionsViewController.swift in Sources */,
 				BA0DF55F219E9B1C00642537 /* ApplicationProceduresViewController.swift in Sources */,
 				BAD41A7421A1B5AD00FCF596 /* RegulationsSyllabusViewController.swift in Sources */,
@@ -512,6 +539,7 @@
 				BA0DF558219E930800642537 /* String.swift in Sources */,
 				BA0DF55D219E9AFD00642537 /* AdmissionRequirementsViewController.swift in Sources */,
 				BA0DF537219DB87900642537 /* FacultyViewController.swift in Sources */,
+				BABF542F21A288760088481D /* CompCoursesTableViewCell.swift in Sources */,
 				BAFF508E219D62AC00F2A848 /* UITableViewCell.swift in Sources */,
 				BA0DF52A219D95BB00642537 /* HomePageViewController.swift in Sources */,
 				BAD41A8121A1C30600FCF596 /* LearningEnvironmentDetailsViewController.swift in Sources */,

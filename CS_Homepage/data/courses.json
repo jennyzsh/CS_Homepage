@@ -1,0 +1,185 @@
+{
+    "Cyber Security": {
+        "header_bg_color": "#ea80fc",
+        "cell_bg_color": "#e1bee7",
+        "courses": [
+            {
+                "name": "COMP7806. Topic in information security (6 credits)",
+                "desc": "Selected topics in information security that are of current interest will be discussed."
+            },
+            {
+                "name": "COMP7901. Legal protection of digital property # (6 credits)",
+                "desc": "This course introduces computer professionals to the various legal means of protecting digital property including computer software, algorithms, and any work or innovation in digital form. Focus is on the main issues in protecting digital property arising from developments in information technology, and their legal solutions. Topics covered include, but are not limited to, the following: 1) Copyright protection of software and websites, 2) Patent protection of software and algorithms, 3) Criminal sanctions against offences involving the digital technology.\n\n# Subject to University approval"
+            },
+            {
+                "name": "COMP7903. Digital investigation and forensics (6 credits)",
+                "desc": "This course introduces the fundamental principles of digital investigation and forensics. The course starts with a brief introduction to common computer crimes and digital evidence, and then moves on to the computer basics and network basics pertaining to digital forensics, and finally comes to the techniques for digital investigation and forensic examination."
+            },
+            {
+                "name": "COMP7904. Information security: attacks and defense (6 credits)",
+                "desc": "This is an introductory course for some preliminary techniques in computer security and simple attacks for security protocols and schemes. Both the theoretical (e.g. the mathematics behind an encryption system and the attacks) and the practical (e.g. introduction of password cracking software tools) aspects of these techniques will be covered.\n\nPrerequisites: Students are expected to have university level mathematics background and some programming experience."
+            },
+            {
+                "name": "COMP7905. Reverse engineering and malware analysis (6 credits)",
+                "desc": "This course provides students a foundational knowledge about reverse engineering and malware analysis, through the study of various cases and hand-on analysis of malware samples. It covers fundamental concepts in malware investigations so as to equip the students with enough background knowledge in handling malicious software attacks. Various malware incidents will be covered, such as cases in Ransomware, banking-trojan, state-sponsored and APT attacks, cases in Stuxnet and malicious software attacks on Industrial Control System and IoT devices. With the experience of studying these cases and analyzing selected samples, the students will be able to understand the global cyber security landscape and its future impact. Hands-on exercises and in-depth discussion will be provided to enable students to acquire the required knowledge and skill set for defending and protecting an enterprise network environment.\n\nStudents should have programming/development skills (Assembly, C, C++, Python) and knowledge in Operating System and computer network."
+            },
+            {
+                "name": "COMP7906. Introduction to cyber security # (6 credits)",
+                "desc": "The aim of the course is to introduce different methods of protecting information and data in the cyber world, including the privacy issue. Topics include introduction to security; cyber attacks and threats; cryptographic algorithms and applications; network security and infrastructure.\n\n# Subject to University approval"
+            },
+        ]
+    },
+    "Financial Computing": {
+        "header_bg_color": "#40c4ff",
+        "cell_bg_color": "#84ffff",
+        "courses": [
+            {
+                "name": "COMP7103. Data mining (6 credits)",
+                "desc": "Data mining is the automatic discovery of statistically interesting and potentially useful patterns from large amounts of data.  The goal of the course is to study the main methods used today for data mining and on-line analytical processing.  Topics include Data Mining Architecture; Data Preprocessing; Mining Association Rules; Classification; Clustering; On-Line Analytical Processing (OLAP); Data Mining Systems and Languages; Advanced Data Mining (Web, Spatial, and Temporal data)."
+            },
+            {
+                "name": "COMP7405. Techniques in computational finance (6 credits)",
+                "desc": "This course introduces the major computation problems in the field of financial derivatives and various computational methods/techniques for solving these problems. The lectures start with a short introduction on various financial derivative products, and then move to the derivation of the mathematical models employed in the valuation of these products, and finally come to the solving techniques for the models.\n\nPre-requisites:  No prior finance knowledge is required. Students are assumed to have basic competence in calculus and probability (up to the level of knowing the concepts of random variables, normal distributions, etc.). Knowledge in at least one programming language is required for the assignments/final project. "
+            },
+            {
+                "name": "COMP7406. Software development for quantitative finance (6 credits)",
+                "desc": "This course introduces the tools and technologies widely used in industry for building applications for Quantitative Finance. From analysis and design to development and implementation, this course covers: modeling financial data and designing financial application using UML, a de facto industry standard for object oriented design and development; applying design patterns in financial application; basic skills on translating financial mathematics into spreadsheets using Microsoft Excel and VBA; developing Excel C++ add-ins for financial computation.\n\nPre-requisites:  This course assumes basic understanding of financial concepts covered in COMP7802. Experience in C++/C programming is required."
+            },
+            {
+                "name": "COMP7407. Securities transaction banking (6 credits)",
+                "desc": "The course introduces the business and technology scenarios in the field of Transaction Banking for financial markets. It balances the economic and financial considerations for products and markets with the organizational and technological requirements to successfully implement a banking function in this scenario and is a crossover between studies of economics, finance and information technology."
+            },
+            {
+                "name": "COMP7408. Distributed ledger and blockchain technology # (6 credits)",
+                "desc": "In this course, students will learn the key technical elements behind the blockchain (or in general, the distributed ledger) technology and some advanced features, such as smart contracts, of the technology. Variations, such as permissioned versus permissionless and private blockchains, and the available blockchain platforms will be discussed.\n\nStudents will also learn the following issues: the security, efficiency, and the scalability of the technology. Cyber-currency (e.g. Bitcoin) and other typical application examples in areas such as finance will also be introduced.\n\nPrerequisites: COMP7906 Introduction to cyber security\n\n# Subject to University approval"
+            },
+            {
+                "name": "COMP7802. Introduction to financial computing (6 credits) ",
+                "desc": "This course introduces the students to different aspects of financial computing in the investment banking area. The topics include yield curve construction in practice, financial modelling and modern risk management practice, etc. Financial engineering is an area of growing demand. The course is a combination of financial product knowledge, financial mathematics and computational techniques. This course will be suitable for students who want to pursue a career in this fast growing area.\n\nPrerequisites: This course does not require any prior knowledge in the area of finance. Basic calculus and numeric computational techniques are useful. Knowledge in Excel spreadsheet operations is required to complete the assignments and final project."
+            },
+            {
+                "name": "COMP7808. Topic in financial computing (6 credits)",
+                "desc": "Selected topics in financial computing that are of current interest will be discussed."
+            },
+            {
+                "name": "COMP7906. Introduction to cyber security # (6 credits)",
+                "desc": "The aim of the course is to introduce different methods of protecting information and data in the cyber world, including the privacy issue. Topics include introduction to security; cyber attacks and threats; cryptographic algorithms and applications; network security and infrastructure.\n\n# Subject to University approval"
+            },
+        ]
+    },
+    "Multimedia Computing": {
+        "header_bg_color": "#ff0",
+        "cell_bg_color": "#ffff8d",
+        "courses": [
+            {
+                "name": "COMP7502. Image processing and computer vision (6 credits)",
+                "desc": "To study the theory and algorithms in image processing and computer vision.  Topics include image representation; image enhancement; image restoration; mathematical morphology; image compression; scene understanding and motion analysis."
+            },
+            {
+                "name": "COMP7503. Multimedia technologies (6 credits)",
+                "desc": "This course presents fundamental concepts and emerging technologies for multimedia computing. Students are expected to learn how to develop various kinds of media communication, presentation, and manipulation techniques. At the end of course, students should acquire proper skill set to utilize, integrate and synchronize different information and data from media sources for building specific multimedia applications. Topics include media data acquisition methods and techniques; nature of perceptually encoded information; processing and manipulation of media data; multimedia content organization and analysis; trending technologies for future multimedia computing."
+            },
+            {
+                "name": "COMP7504. Pattern recognition and applications (6 credits)",
+                "desc": "To study techniques in pattern recognition.  Topics include statistical decision theory; density estimation; dimension reduction; discriminant functions; unsupervised classification and clustering; neural network; hidden Markov model; and selected applications in pattern recognition such as characters and speech recognition."
+            },
+            {
+                "name": "COMP7505. User interface design and development (6 credits)",
+                "desc": "For technology products and services, the user experience is a major key to success. With advanced development of processors, sensors, and new algorithms and software tools, more powerful and expressive user interfaces can be implemented to improve human computer interaction and operation. The course will study matching input and output devices with user capabilities, software and hardware considerations, interface design methodologies, and future interface technologies. All of these topics will be supported and demonstrated with current research and actual case studies."
+            },
+            {
+                "name": "COMP7506. Smart phone apps development # (6 credits)",
+                "desc": "Smart phones have become very popular in recent years. For iPhones alone, CEO Tim Cook announced that Apple has sold the billionth iPhone in July 2016. In addition to iPhones, there are also Android phones, Symbian phones as well as Windows phones. Smart phones play an important role in mobile communication and applications.\n\nSmart phones are powerful as they support a wide range of applications (called apps). Most of the time, smart phone users just purchase their favorite apps wirelessly from the vendors. There is a great potential for software developer to reach worldwide users.\n\nThis course aims at introducing the design issues of smart phone apps. For examples, the smart phone screen is usually much smaller than the computer monitor. We have to pay special attention to this aspect in order to develop attractive and successful apps. Different smart phone apps development environments and programming techniques (such as Java for Android phones, Objective-C and Swift for iPhones) will be introduced to facilitate students to develop their own apps.\n\nStudents should have basic programming knowledge, e.g. C++ or Java.\n\n# Subject to University approval"
+            },
+            {
+                "name": "COMP7507. Visualization and visual analytics (6 credits)",
+                "desc": "This course introduces the basic principles and techniques in visualization and visual analytics, and their applications. Topics include human visual perception; color; visualization techniques for spatial, geospatial and multivariate data, graphs and networks; text and document visualization; scientific visualization; interaction and visual analysis."
+            },
+            {
+                "name": "COMP7604. Game design and development (6 credits)",
+                "desc": "The course studies the basic concepts and techniques for digital game design and development. Topics include: game history and genres, game design process, game production, 2D/3D graphics, physics, audio/visual design, artificial intelligence.\n\nPrerequisites: Basic programming skill, e.g. C++ or Java, is required"
+            },
+            {
+                "name": "COMP7807. Topic in multimedia computing (6 credits)",
+                "desc": "Selected topics in multimedia computing that are of current interest will be discussed."
+            },
+        ]
+    },
+    "Other Courses": {
+        "header_bg_color": "#bdbdbd",
+        "cell_bg_color": "#eee",
+        "courses": [
+            {
+                "name": "COMP7104. Advanced database systems # (6 credits)",
+                "desc": "The course will study some advanced topics and techniques in database systems, with a focus on the aspects of big data analytics, algorithms, and system design & organisation. It will also survey the recent development and progress in selected areas. Topics include: query optimization, spatial-spatiotemporal data management, multimedia and time-series data management, information retrieval and XML, data mining.\n\n# Subject to University approval"
+            },
+            {
+                "name": "COMP7201. Analysis and design of enterprise applications in UML (6 credits)",
+                "desc": "This course presents an industrial-strength approach to software development based on the object-oriented modelling of business entities.  Topics include: overview of software engineering and object-oriented concepts; unified process and Unified Modelling Language (UML); use-case modelling and object modelling; dynamic modelling using sequence diagrams and state machines; object-oriented design; user interface design; introducing design patterns and enterprise applications; shortcomings of UML and remedies.  Emphasis will be given on hands-on exercises with the use of CASE tools.\n\nPrerequisites:  A course in object-oriented programming and a course in software engineering or systems analysis and design."
+            },
+            {
+                "name": "COMP7203. Modern software design (6 credits)",
+                "desc": "The practice of software design has changed markedly in recent years as new approaches to design have gained broad acceptance and several have progressed to become mainstream techniques themselves. This course introduces the principles and practical application of these modern approaches. It first reviews the goals of software design and the qualities that differentiate good designs from bad ones. From this foundation it teaches elemental design patterns, classic design patterns and anti-patterns, refactoring, refactoring to patterns, test-driven design and design for test. Implementation issues, programming idioms and effective use of the language are introduced and discussed where appropriate.\n\nPrerequisites:  A course in software engineering or analysis and design of software systems. The course also requires the ability to program in Java and a basic understanding of the UML class and sequence diagrams."
+            },
+            {
+                "name": "COMP7205. Enterprise architecture (6 credits)",
+                "desc": "This course aims to teach students the practical skills in modeling and developing enterprise IT architectures. It covers different enterprise architecture frameworks, methodologies and practices (such as TOGAF and Zachman). Students will also learn common enterprise integration patterns for implementation of complex enterprise applications based on Service-Oriented Architecture (SOA). New architecture trends (e.g., cloud computing, shared-nothing architecture, column-based database) will also be introduced."
+            },
+            {
+                "name": "COMP7303. High-performance computing (6 credits)",
+                "desc": "This course offers an overview of state-of-the-art parallel architectures and programming languages.  The students will learn the issues related to the performance of parallel algorithms, and how to design efficient parallel algorithms for parallel machines. Topics include milestones in the history of HPC and its applications; high-performance computing architectures; performance law; modern CPU design; interconnection network and routing techniques; memory hierarchy and cache coherence protocol; parallel algorithm design; parallel programming models and case studies of supercomputers."
+            },
+            {
+                "name": "COMP7304. The wireless Internet and mobile network (6 credits)",
+                "desc": "In the recent few years, many new kinds of wireless network such as mobile ad-hoc network and wireless sensor network are under intensive research by researchers worldwide. These networks enhance the quality of human life as they not only facilitate efficient communications among people, they also let people learn more about their surrounding environments. However, have you ever thought of the potential problems induced by these new kinds of networks?\n\nThis course aims at introducing to you various kinds of next generation wireless and mobile networks. We will highlight the scenarios, the characteristics and the technologies behind each kind of network. Then based on their design, we will discuss the potential issues that can appear or even be caused by them. Next we will demonstrate how these issues can be resolved by computer science methodologies."
+            },
+            {
+                "name": "COMP7305. Cluster and cloud computing (6 credits)",
+                "desc": "This course offers an overview of current cluster and cloud technologies, and discusses various issues in the design and implementation of cluster and cloud systems.  Topics include cluster architecture, cluster middleware, and virtualization techniques (e.g., Xen, KVM) used in modern data centers. We will discuss three types of Cloud computing platforms, including SaaS, PaaS, and IaaS, by providing motivating examples from companies such as Google, Amazon, and Microsoft; and introduce Hadoop MapReduce and Spark programming paradigms for large-scale data analysis.\n\nPrerequisites:  The students are expected to exercise the systems configuration and administration under a Linux cluster. Basic understanding of Linux operating system and some experiences in system level programming (C/C++ or Java) are required."
+            },
+            {
+                "name": "COMP7306. Web technologies (6 credits)",
+                "desc": "This course aims to give students a basic understanding of various Web technologies and their industry applications. Fundamental XML concepts and techniques, such as XML Schema, XSLT, SAX, and DOM, will be introduced. New technologies related to Web 2.0, web services, service oriented architecture (SOA), and cloud computing will be studied, including RSS, ATOM, Ajax, SOAP, WSDL, ebXML.\n\nPrerequisites:  basic web programming knowledge, e.g. HTML, JavaScript, and Java."
+            },
+            {
+                "name": "COMP7307. Advanced real-time embedded systems and applications (6 credits)",
+                "desc": "This course’s objective is to introduce advanced real-time scheduling techniques, design and implementation considerations for Embedded Systems. It covers topics on real-time scheduling algorithms, microcontroller architecture, Digital Signal Processors (DSP) architecture, System-on-Chips (SoC), real-time operating systems, and case studies on real-time applications.\n\nPrerequisites:  Students should have basic knowledge about operating systems."
+            },
+            {
+                "name": "COMP7403. Computational molecular biology (6 credits)",
+                "desc": "To introduce computational methods and data structures for analyzing biological data (e.g. DNA, RNA and protein sequences).  Typical topics include basics of molecular biology; biological sequence analysis; indexing data structures; RNA secondary structure alignment/prediction and phylogeny."
+            },
+            {
+                "name": "COMP7404. Computational intelligence and machine learning (6 credits)",
+                "desc": "This course will teach a broad set of principles and tools that will provide the mathematical and algorithmic framework for tackling problems using Artificial Intelligence (AI) and Machine Learning (ML). AI and ML are highly interdisciplinary fields with impact in different applications, such as, biology, robotics, language, economics, and computer science. AI is the science and engineering of making intelligent machines, especially intelligent computer programs, while ML refers to the changes in systems that perform tasks associated with AI.\n\nTopics may include a subset of the following: problem solving by search, heuristic (informed) search, constraint satisfaction, games, knowledge-based agents, supervised learning, unsupervised learning; learning theory, reinforcement learning and adaptive control.\n\nPre-requisites:  Nil, but knowledge of data structures and algorithms, probability, linear algebra, and programming would be an advantage."
+            },
+            {
+                "name": "COMP7606. Deep learning # (6 credits)",
+                "desc": "Machine learning is a fast growing field in computer science and deep learning is the cutting edge technology that enables machines to learn from large-scale and complex datasets. This course will first introduce fundamental machine learning techniques and will then focus on artificial neural networks and how to train and optimize them to solve challenging problems using deep learning. Topics covered include linear and logistic regression, neural networks, convolutional neural networks, deep reinforcement learning and unsupervised feature learning. Popular deep learning software, such as Caffe, Torch and TensorFlow, will also be introduced.\n\n# Subject to University approval"
+            },
+            {
+                "name": "COMP7801. Topic in computer science (6 credits)",
+                "desc": "Selected topics that are of current interest will be discussed."
+            },
+            {
+                "name": "COMP7805. Topic in computer network and systems (6 credits)",
+                "desc": "Selected topics in computer network and systems that are of current interest will be discussed."
+            },
+        ]
+    },
+    "Capstone Experience": {
+        "header_bg_color": "#ffa726",
+        "cell_bg_color": "#ffcc80",
+        "courses": [
+            {
+                "name": "COMP7704. Dissertation (24 credits) (24 credits)",
+                "desc": "Candidate will be required to carry out independent work on a major project that will culminate in the writing of a dissertation."
+            },
+            {
+                "name": "COMP7705. Project (12 credits) (12 credits)",
+                "desc": "Candidate will be required to carry out independent work on a major project under the supervision of individual staff member.  A written report is required."
+            }
+        ]
+    },
+    
+}
