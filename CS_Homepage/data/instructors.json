@@ -21,6 +21,188 @@
             "field_of_research": "Database and Uncertainty Management",
             "email": "ckcheng@cs.hku.hk",
             "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/Cheng%20R.C.K..jpg"
-        }
+        },
+        {
+            "name": "Dr. Chim T.W.",
+            "title": "PhD (HK)",
+            "field_of_research": "Network Security and Cryptography",
+            "email": "twchim@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/ChimTW.jpg"
+        },
+        {
+            "name": "Dr. Choi L.Y.K.",
+            "title": "PhD (HK)",
+            "field_of_research": "Medical Visualization, Geometric Computing, Computer Graphics",
+            "email": "ykchoi@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/Choi%20L.Y.K..jpg"
+        },
+        {
+            "name": "Dr. Chow K.P.",
+            "title": "PhD (UC Santa Barbara)",
+            "field_of_research": "Computer Forensics, Digital Investigation, Data Privacy, Computer Security",
+            "email": "chow@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/ChowKP.jpg"
+        },
+        {
+            "name": "Dr. Chung H.Y.",
+            "title": "PhD (HK)",
+            "field_of_research": "Internet Computing, Video-coding, Video/Image Processing, Real-time Processing",
+            "email": "hychung@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/Chung%20H.Y..jpg"
+        },
+        {
+            "name": "Dr. Lau V.M.K.",
+            "title": "PhD (HK)",
+            "field_of_research": "User Interface, Embedded System, Mobile system, Chinese Character, Font and Input Technologies",
+            "email": "vmklau@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/Lau%20V.M.K..jpg"
+        },
+        {
+            "name": "Dr. Pun K.K.H.",
+            "title": "PhD (Illinois); LLB, LLM (London)",
+            "field_of_research": "Information Technology Law, e-Commerce, e-Crimes, Computerization of Law",
+            "email": "pun@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/Pun%20K.K.H..jpg"
+        },
+        {
+            "name": "Dr. Rahmel J.H.",
+            "title": "PhD (Kaiserslautern)",
+            "field_of_research": "Artificial Intelligence, Financial Services",
+            "email": "juergen@hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/RahmelJuergen.jpg"
+        },
+        {
+            "name": "Dr. Schnieders D.",
+            "title": "PhD (HK)",
+            "field_of_research": "Computer Vision, Image Processing, Pattern Recognition",
+            "email": "sdirk@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/Schnieders%20D.jpg"
+        },
+        {
+            "name": "Dr. Shum C.D.",
+            "title": "PhD (California)",
+            "field_of_research": "Financial Computing",
+            "email": "cdshum@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/ContentImages/InstructorNoImg.jpg"
+        },
+        {
+            "name": "Dr. Tam A.T.C.",
+            "title": "PhD (HK)",
+            "field_of_research": "Cluster Computing, Parallel and Distributed Computing",
+            "email": "atctam@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/Tam%20A.T.C..jpg"
+        },
+        {
+            "name": "Dr. Ting H.F.",
+            "title": "PhD (Princeton)",
+            "field_of_research": "Design and Analysis of Algorithms",
+            "email": "hfting@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/Ting%20H.F..jpg"
+        },
+        {
+            "name": "Dr. Wong K.K.Y.",
+            "title": "PhD (Cambridge)",
+            "field_of_research": "Camera Calibration, Motion Tracking",
+            "email": "kykwong@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/Wong%20K.K.Y..jpg"
+        },
+        {
+            "name": "Dr. Wu C.",
+            "title": "PhD (Toronto)",
+            "field_of_research": "Computer Networking, Cloud Computing",
+            "email": "cwu@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/Wu%20C..jpg"
+        },
+        {
+            "name": "Dr. Yiu S.M.",
+            "title": "PhD (HK)",
+            "field_of_research": "Bioinformatics, Computer Security and Cryptography",
+            "email": "smyiu@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/Yiu%20S.M..jpg"
+        },
+        {
+            "name": "Dr. Yiu S.W.",
+            "title": "PhD (UC Berkeley)",
+            "field_of_research": "Computer and Network Security",
+            "email": "swryiu@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/Yiu%20S.W.%20.jpg"
+        },
+        {
+            "name": "Mr. Li F.K.F.",
+            "title": "MSc (HK)",
+            "field_of_research": "Computer Forensics, Malware Analysis",
+            "email": "fkfli@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/ContentImages/InstructorNoImg.jpg"
+        },
+        {
+            "name": "Mr. Mitcheson, G.",
+            "title": "BSc, MSc (Manc)",
+            "field_of_research": "Software Engineering, Evolutionary Computation and Design",
+            "email": "georgem@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/Mitcheson,%20G..jpg"
+        },
+        {
+            "name": "Mr. Ng P.T.L.",
+            "title": "MBA (Birmingham)",
+            "field_of_research": "Financial Computing",
+            "email": "tlng@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/Ng%20P.T.L..jpg"
+        },
+        {
+            "name": "Prof. Cheung D.W.L.",
+            "title": "PhD (Simon Fraser)",
+            "field_of_research": "Data Engineering, e-Commerce Technology",
+            "email": "dcheung@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/Cheung%20D.W.L..jpg"
+        },
+        {
+            "name": "Prof. Kao B.C.M.",
+            "title": "PhD (Princeton)",
+            "field_of_research": "Database Management Systems, Data Mining, Real-time Systems, Information Retrieval Systems",
+            "email": "kao@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/Kao%20B.C.M..jpg"
+        },
+        {
+            "name": "Prof. Lam T.W.",
+            "title": "PhD (Washington)",
+            "field_of_research": "Algorithms, Computational Biology",
+            "email": "twlam@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/Lam%20T.W..jpg"
+        },
+        {
+            "name": "Prof. Lau F.C.M.",
+            "title": "PhD (Waterloo)",
+            "field_of_research": "Operating Systems, Parallel and Distributed Computing, Wireless Networks",
+            "email": "fcmlau@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/Lau%20F.C.M..jpg"
+        },
+        {
+            "name": "Prof. Tse T.H.",
+            "title": "PhD (London)",
+            "field_of_research": "Program Testing, Debugging, and Analysis",
+            "email": "thtse@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/Tse%20T.H..jpg"
+        },
+        {
+            "name": "Prof. Wang C.L.",
+            "title": "PhD (USC)",
+            "field_of_research": "Operating Systems, Virtual Machines, Cloud Computing",
+            "email": "clwang@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/WangCL.jpg"
+        },
+        {
+            "name": "Prof. Wang W.",
+            "title": "PhD (Alberta)",
+            "field_of_research": "Computer Graphics, Computational Geometry, Geometric Modeling",
+            "email": "wenping@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/Wang%20W..jpg"
+        },
+        {
+            "name": "Prof. White B.",
+            "title": "MS (US)",
+            "field_of_research": "Web Science, Social Media in Education, The Web of Things, and Cloud Computing",
+            "email": "bwhite@cs.hku.hk",
+            "photo": "https://www.msc-cs.hku.hk/Media/Default/instructors/BeboWhite.jpg"
+        },
     ]
 }
