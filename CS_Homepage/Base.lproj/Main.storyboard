@@ -762,6 +762,196 @@
             </objects>
             <point key="canvasLocation" x="1942" y="4063"/>
         </scene>
+        <!--Learning Environment View Controller-->
+        <scene sceneID="w0R-3m-OT0">
+            <objects>
+                <viewController storyboardIdentifier="LearningEnvironmentViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NmM-xf-LaS" customClass="LearningEnvironmentViewController" customModule="CS_Homepage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QNx-lt-YhF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oM7-mv-7Hc">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z0V-ni-12D">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="yaQ-ay-kGS">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                                <color key="backgroundColor" red="0.14117647058823529" green="0.30980392156862746" blue="0.45882352941176469" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="ICf-PC-8a4"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <state key="normal" title="MSc Programme Office"/>
+                                                <connections>
+                                                    <action selector="didPressBtn1:" destination="NmM-xf-LaS" eventType="touchUpInside" id="ZrJ-D1-hjR"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="9zA-8r-1kV">
+                                                <rect key="frame" x="0.0" y="80" width="375" height="80"/>
+                                                <color key="backgroundColor" red="0.37647058823529411" green="0.74901960784313726" blue="0.74901960784313726" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="p76-pJ-1rC"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <state key="normal" title="ITS, Moodle and Panopto"/>
+                                                <connections>
+                                                    <action selector="didPressBtn2:" destination="NmM-xf-LaS" eventType="touchUpInside" id="8lw-B4-MBA"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="mX7-Tj-Eyy">
+                                                <rect key="frame" x="0.0" y="160" width="375" height="80"/>
+                                                <color key="backgroundColor" red="0.5490196078431373" green="0.29411764705882354" blue="0.49411764705882355" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="gdR-QK-e5v"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <state key="normal" title="Student/Alumni Associations"/>
+                                                <connections>
+                                                    <action selector="didPressBtn3:" destination="NmM-xf-LaS" eventType="touchUpInside" id="CbJ-Cu-M9q"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="DSn-eD-mX4">
+                                                <rect key="frame" x="0.0" y="240" width="375" height="80"/>
+                                                <color key="backgroundColor" red="0.97254901960784312" green="0.73333333333333328" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="tMp-3J-7mM"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <state key="normal" title="Research Groups and Centers"/>
+                                                <connections>
+                                                    <action selector="didPressBtn4:" destination="NmM-xf-LaS" eventType="touchUpInside" id="CEn-aE-uGe"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="H5A-CN-oOL">
+                                                <rect key="frame" x="0.0" y="320" width="375" height="80"/>
+                                                <color key="backgroundColor" red="0.94901960784313721" green="0.29411764705882354" blue="0.29411764705882354" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="lMn-tE-PDu"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <state key="normal" title="Other University Services"/>
+                                                <connections>
+                                                    <action selector="didPressBtn5:" destination="NmM-xf-LaS" eventType="touchUpInside" id="i8J-QU-kDj"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="yaQ-ay-kGS" firstAttribute="top" secondItem="Z0V-ni-12D" secondAttribute="top" id="0ii-MM-4J2"/>
+                                            <constraint firstItem="mX7-Tj-Eyy" firstAttribute="top" secondItem="9zA-8r-1kV" secondAttribute="bottom" id="7vR-CJ-0de"/>
+                                            <constraint firstItem="DSn-eD-mX4" firstAttribute="top" secondItem="mX7-Tj-Eyy" secondAttribute="bottom" id="ES4-uY-0Vp"/>
+                                            <constraint firstItem="H5A-CN-oOL" firstAttribute="top" secondItem="DSn-eD-mX4" secondAttribute="bottom" id="LnF-f2-eT6"/>
+                                            <constraint firstItem="yaQ-ay-kGS" firstAttribute="leading" secondItem="Z0V-ni-12D" secondAttribute="leading" id="O8e-Vo-3jR"/>
+                                            <constraint firstAttribute="trailing" secondItem="yaQ-ay-kGS" secondAttribute="trailing" id="TQc-eV-SQY"/>
+                                            <constraint firstItem="H5A-CN-oOL" firstAttribute="leading" secondItem="Z0V-ni-12D" secondAttribute="leading" id="UiF-2x-iVu"/>
+                                            <constraint firstAttribute="trailing" secondItem="mX7-Tj-Eyy" secondAttribute="trailing" id="X7q-g4-9Rg"/>
+                                            <constraint firstItem="9zA-8r-1kV" firstAttribute="leading" secondItem="Z0V-ni-12D" secondAttribute="leading" id="cXl-lN-Vuc"/>
+                                            <constraint firstItem="DSn-eD-mX4" firstAttribute="leading" secondItem="Z0V-ni-12D" secondAttribute="leading" id="dlp-Qi-kND"/>
+                                            <constraint firstAttribute="trailing" secondItem="9zA-8r-1kV" secondAttribute="trailing" id="gMG-tI-PGC"/>
+                                            <constraint firstAttribute="trailing" secondItem="H5A-CN-oOL" secondAttribute="trailing" id="mPb-lP-OBS"/>
+                                            <constraint firstItem="9zA-8r-1kV" firstAttribute="top" secondItem="yaQ-ay-kGS" secondAttribute="bottom" id="qKK-Yr-S7Q"/>
+                                            <constraint firstAttribute="trailing" secondItem="DSn-eD-mX4" secondAttribute="trailing" id="tnG-RM-Lwu"/>
+                                            <constraint firstItem="mX7-Tj-Eyy" firstAttribute="leading" secondItem="Z0V-ni-12D" secondAttribute="leading" id="zM1-1v-9wo"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Z0V-ni-12D" firstAttribute="width" secondItem="oM7-mv-7Hc" secondAttribute="width" id="0e4-MH-YDu"/>
+                                    <constraint firstAttribute="trailing" secondItem="Z0V-ni-12D" secondAttribute="trailing" id="4DP-FH-kkx"/>
+                                    <constraint firstItem="Z0V-ni-12D" firstAttribute="height" secondItem="oM7-mv-7Hc" secondAttribute="height" priority="250" id="Sbv-vy-DX2"/>
+                                    <constraint firstItem="Z0V-ni-12D" firstAttribute="top" secondItem="oM7-mv-7Hc" secondAttribute="top" id="YEx-ol-rCV"/>
+                                    <constraint firstItem="Z0V-ni-12D" firstAttribute="leading" secondItem="oM7-mv-7Hc" secondAttribute="leading" id="lnx-h6-ZZ3"/>
+                                    <constraint firstAttribute="bottom" secondItem="Z0V-ni-12D" secondAttribute="bottom" id="wSh-ln-m5z"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="R2o-7Z-9ZO" firstAttribute="trailing" secondItem="oM7-mv-7Hc" secondAttribute="trailing" id="6qv-3P-ecT"/>
+                            <constraint firstItem="oM7-mv-7Hc" firstAttribute="top" secondItem="R2o-7Z-9ZO" secondAttribute="top" id="QoQ-Hp-Ja5"/>
+                            <constraint firstItem="R2o-7Z-9ZO" firstAttribute="bottom" secondItem="oM7-mv-7Hc" secondAttribute="bottom" id="hyh-RR-MwT"/>
+                            <constraint firstItem="oM7-mv-7Hc" firstAttribute="leading" secondItem="R2o-7Z-9ZO" secondAttribute="leading" id="u8m-16-7jC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="R2o-7Z-9ZO"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c3u-AT-zoW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2649" y="4063"/>
+        </scene>
+        <!--Learning Environment Details View Controller-->
+        <scene sceneID="6wz-cD-faY">
+            <objects>
+                <viewController storyboardIdentifier="LearningEnvironmentDetailsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zAU-Ck-j5r" customClass="LearningEnvironmentDetailsViewController" customModule="CS_Homepage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jq5-Ih-rq4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YS5-HH-0N8">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fEN-0Y-Pc8">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="128"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MDL-qy-ZWT" customClass="KILabel">
+                                                <rect key="frame" x="20" y="80" width="335" height="18"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JXq-Cx-Bqg">
+                                                <rect key="frame" x="295" y="10" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="JXq-Cx-Bqg" secondAttribute="height" multiplier="1:1" id="0um-Dc-om8"/>
+                                                    <constraint firstAttribute="width" constant="60" id="Hsb-Wg-mLg"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                                <state key="normal" title="X"/>
+                                                <connections>
+                                                    <action selector="didPressBtnClose:" destination="zAU-Ck-j5r" eventType="touchUpInside" id="yaw-Mu-lyD"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="MDL-qy-ZWT" firstAttribute="leading" secondItem="fEN-0Y-Pc8" secondAttribute="leading" constant="20" id="69A-Jx-fTX"/>
+                                            <constraint firstItem="JXq-Cx-Bqg" firstAttribute="top" secondItem="fEN-0Y-Pc8" secondAttribute="top" constant="10" id="GDY-jC-XUA"/>
+                                            <constraint firstAttribute="bottom" secondItem="MDL-qy-ZWT" secondAttribute="bottom" constant="30" id="IbF-dC-X3b"/>
+                                            <constraint firstAttribute="trailing" secondItem="JXq-Cx-Bqg" secondAttribute="trailing" constant="20" id="dE6-wE-vuK"/>
+                                            <constraint firstAttribute="trailing" secondItem="MDL-qy-ZWT" secondAttribute="trailing" constant="20" id="llM-Yd-mi5"/>
+                                            <constraint firstItem="MDL-qy-ZWT" firstAttribute="top" secondItem="JXq-Cx-Bqg" secondAttribute="bottom" constant="10" id="yWm-lq-dGz"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="fEN-0Y-Pc8" secondAttribute="bottom" id="8zY-pJ-Hzl"/>
+                                    <constraint firstAttribute="trailing" secondItem="fEN-0Y-Pc8" secondAttribute="trailing" id="BQd-TE-hns"/>
+                                    <constraint firstItem="fEN-0Y-Pc8" firstAttribute="top" secondItem="YS5-HH-0N8" secondAttribute="top" id="H4l-dt-QgU"/>
+                                    <constraint firstItem="fEN-0Y-Pc8" firstAttribute="width" secondItem="YS5-HH-0N8" secondAttribute="width" id="HLf-vc-HnM"/>
+                                    <constraint firstItem="fEN-0Y-Pc8" firstAttribute="height" secondItem="YS5-HH-0N8" secondAttribute="height" priority="250" id="ipS-7y-36X"/>
+                                    <constraint firstItem="fEN-0Y-Pc8" firstAttribute="leading" secondItem="YS5-HH-0N8" secondAttribute="leading" id="p0s-87-DU6"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iXe-JO-Hpe" firstAttribute="bottom" secondItem="YS5-HH-0N8" secondAttribute="bottom" id="HQ7-NJ-f6L"/>
+                            <constraint firstItem="YS5-HH-0N8" firstAttribute="leading" secondItem="iXe-JO-Hpe" secondAttribute="leading" id="kRD-zF-fai"/>
+                            <constraint firstItem="iXe-JO-Hpe" firstAttribute="trailing" secondItem="YS5-HH-0N8" secondAttribute="trailing" id="tQ3-a3-cu4"/>
+                            <constraint firstItem="YS5-HH-0N8" firstAttribute="top" secondItem="iXe-JO-Hpe" secondAttribute="top" id="xPR-H6-heC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="iXe-JO-Hpe"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblContent" destination="MDL-qy-ZWT" id="Bdz-rR-XFm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ar1-eU-wsZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3358" y="4063"/>
+        </scene>
         <!--Duration Schedule View Controller-->
         <scene sceneID="86B-Z0-xXc">
             <objects>
@@ -778,13 +968,13 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dp3-5P-NEb">
                                 <rect key="frame" x="20" y="68" width="335" height="197"/>
-                                <mutableString key="text">The MSc(CompSc) programme is offered in both full-time and part-time modes.  
+                                <string key="text">The MSc(CompSc) programme is offered in both full-time and part-time modes.  
 
 There are 3 semesters in an academic year, i.e. semester 1: September – December, semester 2: January – May and the summer semester: June – August.
 
 Part-time: 2-3 years
 
-Full-time: 1-2 years</mutableString>
+Full-time: 1-2 years</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

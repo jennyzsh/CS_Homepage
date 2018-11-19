@@ -232,5 +232,121 @@ The HKU Libraries
    -  https://lib.hku.hk/
 
 Please email msccs@cs.hku.hk if you find any above links broken or if you have any suggestion of other useful links for us to include in the list.</string>
+	<key>MScProgrammeOffice</key>
+	<string>MSc Programme Office
+
+The MSc Programme Office (located in P3-02 of the Graduate House) provides administrative support to the Programme Director and takes care of all student matters, such as admission, enrolment, examination, student records and enquiries.  It is also responsible for the evaluation, development and overall management of the programme.  It does the same for the Department’s second taught master’s programme in Electronic Commerce and Internet Computing, MSc(ECom&amp;IComp).
+
+The opening hours of the Office for MSc(CompSc) staff and students are 9:00 a.m. to 5:00 p.m. on weekdays and 9:00 a.m. to 12:00 noon on Saturdays.
+
+
+Student Lounge
+
+A student lounge in P2-07 of the Graduate House is open to all students of MSc(ECom&amp;IComp) and MSc(CompSc). Our lounge is primarily designed for students for self-studying and group discussion in a relaxed and casual manner. Some computer workstations and printers services are also available.
+
+
+The MSc(CompSc) Intranet
+
+The MSc(CompSc) Intranet was designed by the Programme Office to provide an efficient and comprehensive student records database to support the programme’s management and administration.  It also provides students with all the administrative information about courses, timetable, circulars and personal records on enrolment and assessment results.  Students has to do their course enrolment electronically on the programme Intranet.
+
+https://msccs.cs.hku.hk</string>
+	<key>ITS</key>
+	<string>Information Technology Services of the University
+
+Information Technology Services (ITS), formally known as the Computer Centre, provides comprehensive information technology services with a state-of-the-art IT environment to support teaching, learning, research and administration of the University. All postgraduate students are pre-assigned email accounts at the time of their initial registration with the University. Students are also provided with a free HKU Portal account which they can use to gain access to the campus network and Internet from home through commercial ISPs and their VPN. The students&apos; email accounts and the HKU Portal accounts will remain valid until they leave the University.
+
+https://www.its.hku.hk/ 
+
+
+Learning Commons
+
+The Learning Commons is a campus hub equipped with modern learning facilities that encourages and facilitates individual and group study.
+
+Chi Wah Learning Commons is located at the podium levels of the University’s new Centennial Campus.  The facility, which spreads over three levels, is a technology-rich, shared or common space in which students, teachers and others can come together to interact, and participate in various kinds of activities held there. 
+
+Other Learning Commons includes The Oval at the first floor of Knowles Building and The Curve at the first and second floors of K.K. Leung Building.
+
+A variety of spaces are provided for individual and self-paced learning in the Learning Commons.  These include quiet study areas, reading and lounging areas and individual workstations.  Collaborative learning spaces are provided in the form of group study rooms with more traditionally styled work tables as well as diner booth style places that are well suited to group interactivity.
+
+http://www.les.hku.hk/teaching-learning/learning-space
+
+
+Moodle and Panopto
+
+The University has introduced a learning platform called Moodle with the Panopto recording and broadcasting system for all students on the University Portal.  You, if enrolled, will be using that system during the study of a course to interact with fellow students, teachers, and to listen to recorded lectures.
+
+http://moodle.hku.hk/
+
+https://lecturecapture.hku.hk/</string>
+	<key>MScAlumniAssociation</key>
+	<string>MSc(CompSc) Alumni Association 
+(former MSc(CompSc) Alumni Society)
+
+In November 2011, the MSc(CompSc) Alumni Society, the predecessor of MSc(CompSc) Alumni Association, was established. The mission of the society was to enhance the relationship among the alumni of the Master of Science in Computer Science in The University of Hong Kong. It maintained excellent bonds among the members through a schedule of social events and technical talks. One of the Society’s primary goals was to strengthen the interests and knowledge of our members and extend our sincere help to the academia and communities whenever and wherever possible.
+
+There is a tremendous growth of the MSc(CompSc) community in recent years, especially with the brilliant graduates from Mainland China. In December 2017, the MSc(CompSc) Alumni Association was formed to enhance its appearence and support througout China.
+
+Anyone that has enrolled or graduated from MSc(CompSc) programme can join the alumni association.
+
+Further information about the MSc(CompSc) Alumni Association can be found on this page.
+
+http://www.hkumsccs.com
+
+
+Postgraduate Student Association (PGSA)
+
+The Postgraduate Student Association is an organisation run by, and for, postgraduate students and was formed in late 1993. The Association aims to enhance postgraduate life at HKU by encouraging postgraduate to take an active interest in their welfare and in participating in academic and social events. It holds regular activities such as Sports Days, parties, group outings and trips, lectures of special interest to postgraduates and film shows. These activities aim to bring the postgraduate population closer together in extra-curricular social settings.
+
+http://www.pgsa.hku.hk/
+
+
+HKUCS Alumni Association
+
+The HKU Computer Science Alumni Association was established by the graduates of the Department of Computer Science. The alumni aims to promote the relationship and better understanding amongst graduates, students, and staff members of the Department of Computer Science. The Alumni Association membership is free. After joining the Alumni Association, a member can enjoy the free services include a mailbox and subscription to class mailing list.
+
+http://www.hkucs.org
+
+Chinese Students and Scholars Association (CSSA)
+
+Chinese Students and Scholars Association (http://www.hkucssa.com) is formed by mainland students in the University of Hong Kong for more than ten years ago.  It provides platforms for mainland students and scholars to exchange and share information about their lives in Hong Kong.  And various activities are organized for members to develop their comprehensive qualities.
+
+http://www.hkucssa.com/</string>
+	<key>ResearchGroups</key>
+	<string>In our Department, our faculty are actively engaged in research; some, in fact, are internationally renowned in their areas of expertise. In many cases, the products of this department’s research have particular relevance for Hong Kong, representing valuable contributions to our local IT industry as well as to the broader research community. Research activities are clustered into research groups which represent the department’s particular areas of strength.  The work of the groups is generally supported by state-of-the-art research laboratories and involve many of our postgraduate students.
+
+The following are the existing research groups and centers in the department:
+
+	Bioinformatics Algorithms Research Laboratory
+	Center for Information Security and Cryptography (CISC)
+	Computer Graphics Laboratory
+	Computer Networks Laboratory
+	Computer Vision Laboratory
+	High-Performance Computing Laboratory
+	Law and Technology Centre
+	Systems and Networking Research Laboratory
+	
+Our students are encouraged to attend talks and seminars hosted by these centres to expand their horizons.</string>
+	<key>OtherUniversityServices</key>
+	<string>Libraries
+
+The University of Hong Kong Libraries consist of the Main Library and six branch libraries. Students may take advantage of the huge library collections in The University of Hong Kong. The Libraries have a total stock of over 2.99 million printed volumes, while there are also substantial holdings of audio-visual items and materials in microform. An expanding collection of electronic information resources that comprises an all-rounded collection of materials in the arts, humanities, architecture, social sciences, and science and technology, giving vital support to teaching and research in the University.
+
+http://lib.hku.hk/
+
+
+Parking on campus
+
+Hourly charged car parking spaces on campus are available to all students. Details can be found at: 
+
+https://www.estates.hku.hk/our-services/facility-management/parking/parking-space-location-and-parking-fee
+
+
+Centre for Sports and Exercise
+
+The Centre for Sports and Exercise administers all the sports facilities of the University. These facilities include the Flora Ho and Lindsay Ride Sports Centres (indoor sports gymnasia), the Stanley Smith Swimming Pool, the Stanley Ho Sports Centre (outdoor sports and athletics stadium), the Henry Fok Swimming Pool and tennis courts at High West, Eliot Filter Beds and Robert Black College.
+
+Our students can enjoy the sports facilities by using their student card. Whether you want to exercise to keep fit, play team sports, swim, or enjoy a sun bath, etc., you can have it all there.
+
+http://www.ihp.hku.hk/</string>
 </dict>
 </plist>
