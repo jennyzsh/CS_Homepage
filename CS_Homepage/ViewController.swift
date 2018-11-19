@@ -62,8 +62,6 @@ extension ViewController: SideMenuViewControllerDelegate {
         case 3:
             content.menu_type = "graduate"
         case 4:
-            content.menu_type = "news"
-        case 5:
             content.menu_type = "student_resource"
         default:
             break
