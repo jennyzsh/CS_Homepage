@@ -8,17 +8,18 @@
 
 import UIKit
 import KILabel
-import WebKit
 
 class ApplicationProceduresViewController: UIViewController {
 
     @IBOutlet weak var lblContent1: KILabel!
     @IBOutlet weak var lblContent2: KILabel!
-    @IBOutlet weak var webview: WKWebView!
+    @IBOutlet weak var webview: UIWebView!
     @IBOutlet weak var lblContent3: KILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.webview.scrollView.isScrollEnabled = false
         
         self.navigationItem.title = "Application Procedures"
         self.lblContent1.text = StringUtility.getStringOf(keyName: "ApplicationProcedure1")
@@ -35,21 +36,20 @@ class ApplicationProceduresViewController: UIViewController {
     }
     
     func loadHTML() {
-        if let url = Bundle.main.url(forResource: "application_procedure_table", withExtension: "html") {
-            webview.loadFileURL(url, allowingReadAccessTo: url)
-            let request = URLRequest(url: url)
-            webview.load(request)
+        if let url = Bundle.main.path(forResource: "application_procedure_table", ofType: "html") {
+            do {
+                let contents =  try String(contentsOfFile: url, encoding: .utf8)
+                webview.loadHTMLString(contents as String, baseURL: nil)
+            } catch {
+                
+            }
         }
     }
 
     @IBAction func didPressBtnOnlineApplication(_ sender: UIButton) {
         let url = "http://www.aal.hku.hk/tpg/programme/master-science-computer-science"
         if let link = URL(string: url){
-            if #available(iOS 10.0, *) {
-                UIApplication.shared.openURL(link)
-            } else {
-                UIApplication.shared.open(link, options: [:], completionHandler: nil)
-            }
+            UIApplication.shared.openURL(link)
         }
     }
     

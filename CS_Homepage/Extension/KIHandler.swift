@@ -17,11 +17,7 @@ class KIHandler: NSObject {
             link = "mailto:" + url
         }
         if let link = URL(string: url){
-            if #available(iOS 10.0, *) {
-                UIApplication.shared.openURL(link)
-            } else {
-                UIApplication.shared.open(link, options: [:], completionHandler: nil)
-            }
+            UIApplication.shared.openURL(link)
         }
     }
 

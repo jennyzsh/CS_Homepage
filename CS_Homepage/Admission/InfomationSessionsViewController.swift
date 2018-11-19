@@ -23,11 +23,7 @@ class InfomationSessionsViewController: UIViewController {
     @IBAction func didPressBtnRegister(_ sender: UIButton) {
         let url = "https://www.msc-cs.hku.hk/frmreginformationsession1"
         if let link = URL(string: url){
-            if #available(iOS 10.0, *) {
-                UIApplication.shared.openURL(link)
-            } else {
-                UIApplication.shared.open(link, options: [:], completionHandler: nil)
-            }
+            UIApplication.shared.openURL(link)
         }
     }
     
