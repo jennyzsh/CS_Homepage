@@ -73,6 +73,10 @@
                 "title": "MSc(CompSc) Alumni Association",
                 "view_controller": "AssociationViewController"
             },
+            {
+                "title": "Alumni Activities",
+                "view_controller": "AlumniActivitiesCollectionViewController"
+            },
         ]
     },
     "news":{
