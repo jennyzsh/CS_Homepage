@@ -22,6 +22,8 @@ class HomePageViewController: UIViewController {
     }
     
     @IBAction func clickToMoreDetail(_ sender: UIButton) {
+        let content = storyboard?.instantiateViewController(withIdentifier: "ProgrammeOverviewViewController") as! ProgrammeOverviewViewController
+        self.navigationController?.setViewControllers([content], animated: true)
     }
     
    
