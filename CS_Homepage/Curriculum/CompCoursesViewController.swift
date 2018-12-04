@@ -19,7 +19,7 @@ class CompCoursesViewController: UIViewController, UITableViewDataSource, UITabl
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "Cources"
+        self.navigationItem.title = "Courses"
         self.lblHeader.text = StringUtility.getStringOf(keyName: "CompHeader")
         self.lblFooter.text = StringUtility.getStringOf(keyName: "CompFooter")
         self.tableView.register(UINib(nibName: cellIdentifier, bundle: nil), forCellReuseIdentifier: cellIdentifier)

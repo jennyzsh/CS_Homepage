@@ -1,5 +1,5 @@
 //
-//  CourcesViewController.swift
+//  CoursesViewController.swift
 //  CS_Homepage
 //
 //  Created by Jenny ZHANG on 2018/11/19.
@@ -15,7 +15,7 @@ class CoursesViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "Cources"
+        self.navigationItem.title = "Courses"
     }
     
     @IBAction func indexDidChange(_ sender: UISegmentedControl) {

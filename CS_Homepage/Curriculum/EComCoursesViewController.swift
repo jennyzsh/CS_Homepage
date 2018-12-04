@@ -12,7 +12,7 @@ class EComCoursesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "Cources"
+        self.navigationItem.title = "Courses"
     }
 
     @IBAction func didPressBtnCourses(_ sender: UIButton) {
