@@ -8,6 +8,7 @@
 
 import UIKit
 
+//extend UIButton to have borderWidth, borderColor and cornerRadius properties
 extension UIButton {
     @IBInspectable var borderWidth: CGFloat {
         set {

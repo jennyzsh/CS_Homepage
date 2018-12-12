@@ -25,6 +25,7 @@ class AlumniActivitiesCollectionViewController: UICollectionViewController, UICo
 
     }
     
+    //load activities.json to get activities information
     func loadJson() {
         if let path = Bundle.main.path(forResource: "activities", ofType: "json") {
             do {

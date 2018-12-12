@@ -16,6 +16,7 @@ class LearningEnvironmentViewController: UIViewController {
 
     }
     
+    //present LearningEnvironmentDetailsViewController
     func navigateToDetailPage(with key: String, button: UIButton){
         let content = storyboard?.instantiateViewController(withIdentifier: "LearningEnvironmentDetailsViewController") as! LearningEnvironmentDetailsViewController
         content.background_color = button.backgroundColor!
@@ -23,6 +24,7 @@ class LearningEnvironmentViewController: UIViewController {
         self.navigationController?.present(content, animated: true, completion: nil)
     }
 
+    //MARK: - button click methods
     @IBAction func didPressBtn1(_ sender: UIButton) {
         self.navigateToDetailPage(with: "MScProgrammeOffice", button: sender)
     }

@@ -21,6 +21,7 @@ class AlumniActivitiesDetailViewController: UIViewController {
         self.webView.load(URLRequest(url: URL(string: url)!))
     }
     
+    //click the button to dismiss current view controller
     @IBAction func didPressBtnClose(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
     }

@@ -8,6 +8,7 @@
 
 import UIKit
 
+//extend UITableViewCell to have normalBackgroundColor and selectedBackgroundColor properties
 extension UITableViewCell {
     @IBInspectable var normalBackgroundColor: UIColor? {
         get {

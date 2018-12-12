@@ -26,6 +26,7 @@ class SubmenuViewController: UIViewController {
         self.tableViewConstraintH.constant = CGFloat(100 * self.submenu_array.count)
     }
     
+    //load menu.json to get submenus
     func loadJson() {
         if let path = Bundle.main.path(forResource: "menu", ofType: "json") {
             do {
@@ -42,6 +43,7 @@ class SubmenuViewController: UIViewController {
     }
 }
 
+//UITableViewDelegate
 extension SubmenuViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let content = storyboard?.instantiateViewController(withIdentifier: self.submenu_array[indexPath.row]["view_controller"] as! String)
@@ -49,6 +51,7 @@ extension SubmenuViewController: UITableViewDelegate {
     }
 }
 
+//UITableViewDataSource
 extension SubmenuViewController: UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1

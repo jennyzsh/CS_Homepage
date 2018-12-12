@@ -35,6 +35,7 @@ class ApplicationProceduresViewController: UIViewController {
         
     }
     
+    //load application_procedure_table.html to display the table
     func loadHTML() {
         if let url = Bundle.main.path(forResource: "application_procedure_table", ofType: "html") {
             do {
@@ -46,6 +47,7 @@ class ApplicationProceduresViewController: UIViewController {
         }
     }
 
+    //open browser externally when click the button
     @IBAction func didPressBtnOnlineApplication(_ sender: UIButton) {
         let url = "http://www.aal.hku.hk/tpg/programme/master-science-computer-science"
         if let link = URL(string: url){

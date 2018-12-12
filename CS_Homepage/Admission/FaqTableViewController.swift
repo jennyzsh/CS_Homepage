@@ -20,6 +20,7 @@ class FaqTableViewController: UITableViewController {
         self.loadJson()
     }
     
+    //load faq.json to load faq information
     func loadJson() {
         if let path = Bundle.main.path(forResource: "faq", ofType: "json") {
             do {
@@ -35,7 +36,6 @@ class FaqTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-
     override func numberOfSections(in tableView: UITableView) -> Int {
         return self.faq_dic.count
     }
@@ -55,6 +55,7 @@ class FaqTableViewController: UITableViewController {
         return key
     }
     
+    //set up FaqTableViewCell
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! FaqTableViewCell
         let key = Array(self.faq_dic.keys)[indexPath.section]

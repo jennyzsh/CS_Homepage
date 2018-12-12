@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     fileprivate var transitionPoint: CGPoint!
     fileprivate var navigator: UINavigationController!
 
+    
     lazy fileprivate var menuAnimator: MenuTransitionAnimator! = MenuTransitionAnimator(mode: .presentation, shouldPassEventsOutsideMenu: false) {
         self.dismiss(animated: true, completion: nil)
     }
@@ -42,11 +43,14 @@ class ViewController: UIViewController {
     }
 }
 
+//SideMenuViewControllerDelegate
 extension ViewController: SideMenuViewControllerDelegate {
+    //menu did cancel
     func menuDidCancel(_ menu: SideMenuViewController) {
         self.dismiss(animated: true, completion: nil)
     }
     
+    //menu did select
     func menu(_ menu: SideMenuViewController, didSelectItemAt index: Int, at point: CGPoint) {
         transitionPoint = point
         
@@ -75,7 +79,9 @@ extension ViewController: SideMenuViewControllerDelegate {
     }
 }
 
+//UINavigationControllerDelegate
 extension ViewController: UINavigationControllerDelegate {
+    //navigation controller animation
     func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationController.Operation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         if let transitionPoint = transitionPoint {
             return CircularRevealTransitionAnimator(center: transitionPoint)

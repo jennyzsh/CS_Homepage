@@ -20,6 +20,7 @@ class InfomationSessionsViewController: UIViewController {
 
     }
     
+    //open browser externally when click the button
     @IBAction func didPressBtnRegister(_ sender: UIButton) {
         let url = "https://www.msc-cs.hku.hk/frmreginformationsession1"
         if let link = URL(string: url){

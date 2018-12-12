@@ -2,6 +2,7 @@ import UIKit
 
 class StringUtility: NSObject {
     
+    //get string value of the <keyName> key from String.plist
     static func getStringOf(keyName: String) -> String {
         let dic = plistDictionary()
         let text = dic.value(forKey: keyName) as? String

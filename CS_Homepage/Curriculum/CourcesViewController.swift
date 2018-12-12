@@ -18,6 +18,7 @@ class CoursesViewController: UIViewController {
         self.navigationItem.title = "Courses"
     }
     
+    //change controller display when click the segmented control
     @IBAction func indexDidChange(_ sender: UISegmentedControl) {
         switch self.segmentedControl.selectedSegmentIndex {
         case 0:

@@ -29,6 +29,7 @@ class GraduateWordsViewController: UITableViewController {
         self.loadJson()
     }
     
+    //load graduates.json to get graduates information
     func loadJson() {
         if let path = Bundle.main.path(forResource: "graduates", ofType: "json") {
             do {
@@ -45,6 +46,7 @@ class GraduateWordsViewController: UITableViewController {
     
     //MARK: - UITableViewDelegate
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //click an item of the table to present GraduateWordsDetailViewController
         let content = storyboard?.instantiateViewController(withIdentifier: "GraduateWordsDetailViewController") as! GraduateWordsDetailViewController
         let graduate = self.graduates_array[indexPath.row]
         content.graduate = graduate
@@ -60,6 +62,7 @@ class GraduateWordsViewController: UITableViewController {
         return self.graduates_array.count
     }
     
+    //setup GraduateWordsTableViewCell
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! GraduateWordsTableViewCell
         

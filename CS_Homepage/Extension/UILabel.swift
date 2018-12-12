@@ -9,6 +9,7 @@
 import UIKit
 import KILabel
 
+//extend UILabel to have borderWidth, borderColor and cornerRadius properties
 extension UILabel {
     @IBInspectable var borderWidth: CGFloat {
         set {

@@ -27,6 +27,7 @@ class CompCoursesViewController: UIViewController, UITableViewDataSource, UITabl
         self.loadJson()
     }
     
+    //load courses.json to display courses information
     func loadJson() {
         if let path = Bundle.main.path(forResource: "courses", ofType: "json") {
             do {
@@ -57,6 +58,7 @@ class CompCoursesViewController: UIViewController, UITableViewDataSource, UITabl
         return courses_array.count
     }
     
+    //setup CompCoursesTableViewCell
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! CompCoursesTableViewCell
         let key = Array(self.courses_dic.keys)[indexPath.section]
@@ -80,6 +82,7 @@ class CompCoursesViewController: UIViewController, UITableViewDataSource, UITabl
         return 50
     }
     
+    //the section headers have different background color
     func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
         let key = Array(self.courses_dic.keys)[section]
         view.tintColor = UIColor(hexString: self.courses_dic[key]!["header_bg_color"] as! String)

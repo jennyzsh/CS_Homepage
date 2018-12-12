@@ -27,6 +27,7 @@ class FacultyViewController: UIViewController {
         self.instructorTableView.reloadData()
     }
     
+    //load instructors.json to get instructors information
     func loadJson() {
         if let path = Bundle.main.path(forResource: "instructors", ofType: "json") {
             do {
@@ -53,6 +54,7 @@ extension FacultyViewController: UITableViewDataSource {
         return self.instructorsArray.count
     }
     
+    //set up InstructorTableViewCell
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! InstructorTableViewCell
         let instructor = self.instructorsArray[indexPath.row] as! Dictionary<String, AnyObject>

@@ -9,6 +9,7 @@
 import UIKit
 import KILabel
 
+//KIHandler to handle the link in KILabel
 class KIHandler: NSObject {
     
     var linkTapHandler: KILinkTapHandler = { label, url, range in

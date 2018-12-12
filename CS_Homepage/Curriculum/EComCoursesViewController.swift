@@ -15,6 +15,7 @@ class EComCoursesViewController: UIViewController {
         self.navigationItem.title = "Courses"
     }
 
+    //click the button to open browser externally
     @IBAction func didPressBtnCourses(_ sender: UIButton) {
         let url = "https://www.ecom-icom.hku.hk/Curriculum/Courses"
         if let link = URL(string: url){
